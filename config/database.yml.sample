@@ -1,0 +1,18 @@
+login: &login
+  adapter: mysql
+  encoding: utf8
+  username: <username>
+  password: <password>
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  database: waupc_radiant_development
+  <<: *login
+
+test:
+  database: waupc_radiant_test
+  <<: *login
+
+production:
+  database: waupc_radiant
+  <<: *login

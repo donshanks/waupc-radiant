@@ -1,0 +1,46 @@
+body { 
+  margin:0px; padding:0px; 
+  font-family:arial,helvetica,sans-serif;
+}
+.section1 { 
+  background-color:#441; 
+  border:solid 2px #fff; 
+  border-top-width:4px;
+  color:#fff;
+  padding-top:.3em;
+  padding-bottom:.3em
+}
+.section1 a { 
+  font-weight:bold; 
+  color:#fff; 
+  padding-left:.5em; 
+  padding-right:.5em;
+  text-decoration:none
+}
+.section1 a:hover { color:#cc9 }
+.section2 { 
+  background-color:#cc9; 
+  border:solid 2px #fff; 
+  height:240px
+}
+.section3 { 
+  background-color:#441; 
+  border:solid 2px #fff; 
+  height:4px
+}
+.sectionTitle {
+  font-size:28px;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-align:center
+}
+.sectionTitle { 
+  height:92px;
+  margin:0px;
+  background:url(/images/washington-district-bg3.gif) top left repeat-x transparent
+}
+.topMenuHolder {
+  width:1000px;
+  margin:auto;
+}
+
