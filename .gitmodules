@@ -1,0 +1,3 @@
+[submodule "vendor/extensions/event_calendar"]
+	path = vendor/extensions/event_calendar
+	url = git://github.com/radiant/radiant-event-calendar-extension.git
