@@ -30,5 +30,9 @@ Radiant::Initializer.run do |config|
     ActiveSupport::Inflector.inflections do |inflect|
       inflect.uncountable 'config'
     end
+#    Radiant::Config['admin.title'] = "Washington District UPCI"
+#    Radiant::Config['admin.subtitle'] = "Bringing the Gospel to Washington State"
+#    Radiant::Config['defaults.page.parts'] = "body,sidebar"
+#    Radiant::Config['defaults.page.filter'] = "Fckeditor"
   end
 end

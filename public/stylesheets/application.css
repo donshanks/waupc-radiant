@@ -21,12 +21,12 @@ body {
 .section2 { 
   background-color:#cc9; 
   border:solid 2px #fff; 
-  height:240px
+  height:258px
 }
 .section3 { 
-  background-color:#441; 
+  background-color:#cc9; 
   border:solid 2px #fff; 
-  height:4px
+  height:8px
 }
 .sectionTitle {
   font-size:28px;
@@ -40,7 +40,72 @@ body {
   background:url(/images/washington-district-bg3.gif) top left repeat-x transparent
 }
 .topMenuHolder {
-  width:1000px;
+  width:826px;
   margin:auto;
+}
+.section2 .pics {
+  border:1px solid #441;
+  height:245px;
+  width:816px;
+  padding:0px;
+  margin:5px auto;
+}
+.section2 .pics img {
+  background-color:transparent;
+  top:0px;
+  left:0px;
+}
+.section2 .scripture {
+  color:#eef;
+  font-size:16pt;
+  z-index:1000;
+  position:relative;
+  text-shadow:black 0.1em 0.1em 0.2em;
+  top:-84px;
+  left:39%;
+  width:530px;
+  font-weight:bold;
+  FILTER: Shadow(Color=#000000, Direction=135);width:530px;font-size:16pt
+}
+.main-home {
+  background: url(/images/home-bg.gif) repeat-y top left transparent;
+  min-height:200px;
+  margin:auto;
+  width:826px;
+}
+.main-home h1 {
+  margin:0px;
+}
+.main-left {
+  float:left;
+  width:530px;
+  padding-right:30px;
+  height:400px;
+}
+.main-right {
+}
+.events-sidebar h3 {
+  margin-bottom:3px;
+}
+.events-sidebar ul {
+  margin-top:0px;
+}
+.events-sidebar ul li {
+  list-style-type:none;
+  font-size:10pt;
+  margin-bottom:5px;
+}
+.events-sidebar ul li span.date {
+  font-weight:bold;
+  color:#441;
+}
+.missions-sidebar .deputation {
+  font-size:10pt;
+}
+.missions-sidebar .deputation .dates {
+  font-weight:bold;
+}
+.missions-sidebar h3 {
+  margin-bottom:3px;
 }
 
