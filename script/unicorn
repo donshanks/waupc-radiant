@@ -1,0 +1,27 @@
+#!/opt/ree/bin/ruby
+require File.expand_path('../../config/boot',  __FILE__)
+
+if %w(production development test).include?(ARGV[1]) then
+  ENV['RAILS_ENV'] = ARGV[1]
+else
+  ENV['RAILS_ENV'] = 'production'
+end
+
+def start
+  if ENV['RAILS_ENV'] == 'production' then
+    cfg_opt = '-c config/unicorn.rb'
+  else
+    cfg_opt = '-p 3100'
+  end
+
+  exec "unicorn_rails -E #{ENV['RAILS_ENV']} -D #{cfg_opt}"
+end
+
+def stop
+  exec "kill -QUIT `cat tmp/pids/unicorn.pid`"
+end
+
+case ARGV[0]
+  when 'start' then start()
+  when 'stop'  then stop()
+end
