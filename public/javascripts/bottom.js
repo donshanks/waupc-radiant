@@ -21,27 +21,18 @@ var callback = function(root) {
 
   // If there is matches for the date query
   if (eventEntries.length > 0) {
-    var sortedEntries = [];
     for (var i = 0; i < eventEntries.length; i++) {
       var event = eventEntries[i];
       // Print the event title of the matches
       var startDate = readDate( (event.getTimes())[0].startTime, 'F d, Y');
-      var k = (new Date(startDate)).getTime();
-      sortedEntries.push( { key: k, start: startDate, title: event.getTitle().getText() } );
+      $j('.events-sidebar ul').append(
+        '<li><span class="date">' + startDate + '</span><br /> ' + event.getTitle().getText() + '</li>'
+      );
     }
   } 
   else {
     // No match is found for the date query
     document.write('no events are matched from the query!');
-  }
-  sortedEntries.sort( function(a,b){
-    if( a.key > b.key ) { return 1; } else 
-    if( b.key < a.key ) { return -1;  }
-    else { return 0; }
-  });
-  for (var i=0; i<sortedEntries.length; i++) {
-    var event = sortedEntries[i];
-    $j('.events-sidebar ul').append('<li><span class="date">' + event.start + '</span><br /> ' + event.title + '</li>');
   }
 
 }
@@ -68,9 +59,13 @@ $j(function(){
 
   // Create and set the minimum and maximum start time for the date query
   var startMin = new google.gdata.DateTime( new Date() );
-  var startMax = new google.gdata.DateTime( new Date( +(new Date()) + (1000 * 60 * 60 * 24 * 30) ) );
+  // var startMax = new google.gdata.DateTime( new Date( +(new Date()) + (1000 * 60 * 60 * 24 * 30) ) );
   query.setMinimumStartTime(startMin);
-  query.setMaximumStartTime(startMax);
+  // query.setMaximumStartTime(startMax);
+  query.setOrderBy('starttime');
+  query.setSortOrder('ascending');
+  query.setSingleEvents(true);
+  query.setMaxResults(5);
 
   calendarService.getEventsFeed(query, callback, handleError);
 
