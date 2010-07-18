@@ -28,9 +28,6 @@
 [submodule "vendor/extensions/comments"]
 	path = vendor/extensions/comments
 	url = git://github.com/saturnflyer/radiant-comments.git
-[submodule "vendor/extensions/less"]
-	path = vendor/extensions/less
-	url = http://github.com/rk/Radiant-Less.git
 [submodule "vendor/plugins/will_paginate"]
 	path = vendor/plugins/will_paginate
 	url = http://github.com/mislav/will_paginate.git
