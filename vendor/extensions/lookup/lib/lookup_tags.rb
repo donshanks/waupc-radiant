@@ -207,6 +207,62 @@ module LookupTags
     church.minister.full_name_with_title
   end
 
+  tag 'churches:each:email_link' do |tag|
+    church = tag.locals.church
+    link = ''
+    unless church.email.blank?
+      link = %Q{<a href="mailto:#{church.email}">#{church.email}</a>}
+    end
+    link
+  end
+
+  tag 'churches:each:website_link' do |tag|
+    church = tag.locals.church
+    link = ''
+    unless church.web.blank?
+      link = %Q{<a href="#{church.web}">#{church.web}</a>}
+    end
+    link
+  end
+
+  tag 'churches:each:physical_addr' do |tag|
+    church = tag.locals.church
+    addr = ''
+    unless church.physical_address.blank? 
+      addr += "#{church.physical_address}<br />"
+    end
+    unless church.physical_city.blank? 
+      addr += "#{church.physical_city}, WA"
+      unless church.physical_zip.blank?
+        addr += " #{church.physical_zip}"
+      end
+      addr += "<br />"
+    end
+    unless addr.blank?
+      addr = "<b>Physical Address:</b><br />#{addr}"
+    end
+    addr
+  end
+
+  tag 'churches:each:mailing_addr' do |tag|
+    church = tag.locals.church
+    addr = ''
+    unless church.mailing_address.blank? 
+      addr += "#{church.mailing_address}<br />"
+    end
+    unless church.mailing_city.blank? 
+      addr += "#{church.mailing_city}, WA"
+      unless church.mailing_zip.blank?
+        addr += " #{church.mailing_zip}"
+      end
+      addr += "<br />"
+    end
+    unless addr.blank?
+      addr = "<b>Mailing Address:</b><br />#{addr}"
+    end
+    addr
+  end
+
   tag 'churches:each:odd_or_even' do |tag|
     if tag.locals.index % 2 == 0
       " even"

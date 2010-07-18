@@ -5,7 +5,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 require 'radius'
 
 Radiant::Initializer.run do |config|
-#  config.frameworks -= [ :action_mailer ]
+  # config.frameworks -= [ :action_mailer ]
 
   config.action_controller.session = {
     :session_key => '_waupc-radiant_session',
@@ -16,6 +16,8 @@ Radiant::Initializer.run do |config|
   config.action_controller.session_store = :cookie_store
   config.active_record.observers = :user_action_observer
   config.time_zone = 'UTC'
+
+  config.gem "sanitize"
 
   config.action_view.field_error_proc = Proc.new do |html, instance|
     if html !~ /label/
@@ -34,5 +36,9 @@ Radiant::Initializer.run do |config|
     Radiant::Config['admin.subtitle'] = "Bringing the Gospel to Washington State"
     Radiant::Config['defaults.page.parts'] = "body,sidebar"
     Radiant::Config['defaults.page.filter'] = "Fckeditor"
+
+    Radiant::Config['comments.simple_spam_filter_required?'] = false
+    Radiant::Config['comments.mollom_privatekey'] = "4a57fcc4aaa06118a36fc3790498b88d"
+    Radiant::Config['comments.mollom_publickey'] = "f246f89c5c551ff7140195c50912a5e1"
   end
 end

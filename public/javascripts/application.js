@@ -24,4 +24,10 @@ $j(function(){
       e.text( e.text().replace('Hide','Read') );
     }
   });
+  $j('.church-line').click(function(){
+    $j('#'+this.id+'_more').dialog({
+      modal: true,
+      width: 400
+    });
+  });
 });

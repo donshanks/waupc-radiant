@@ -25,3 +25,6 @@
 [submodule "vendor/extensions/drag_order"]
 	path = vendor/extensions/drag_order
 	url = git://github.com/bright4/radiant-drag-order.git
+[submodule "vendor/extensions/comments"]
+	path = vendor/extensions/comments
+	url = git://github.com/saturnflyer/radiant-comments.git
