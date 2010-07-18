@@ -181,39 +181,37 @@ body {
 .topmenu li ul ul a {
   width:9.9em;
 }
-h4 {
-  margin-bottom:0px;
-  margin-top:0px;
-}
-.para {
-  text-indent:2em;
-  margin-bottom:1em;
-}
-.para-hilite {
-  font-style:italic;
-  color:brown;
-}
+h4 { margin-bottom:0px; margin-top:0px }
+h5 { margin-bottom:0px; margin-top:0px; font-size:15px }
+
+.para { text-indent:2em; margin-bottom:1em }
+.para-hilite { font-style:italic; color:brown }
+
+table td { vertical-align:top; font-size:14px }
+
 table.thirds, table.halfs { width:100% }
 table.thirds td, table.halfs td { vertical-align:top }
 table.thirds td { width:33% }
 table.halfs  td { width:50% }
 
-ul.minister-line { list-style:none; margin:0px; padding:0px; clear:left; font-size:14px }
-ul.minister-line.odd li { background-color:rgb(240,240,240) }
-ul.minister-line.header li { background-color:rgb(200,200,200); font-weight:bold; font-size:16px }
-ul.minister-line li { float:left; width:100px; padding:2px }
-ul.minister-line li.email { width:300px }
+tr.minister-line { margin:0px; padding:0px; font-size:14px; cursor:pointer }
+tr.minister-line.header { background-color:#441; color:white; font-weight:bold; font-size:16px }
+tr.minister-line.header:hover { background-color:#441 }
+tr.minister-line.odd { background-color:#dadacf }
+tr.minister-line td { width:100px; padding:2px }
+tr.minister-line:hover { background-color:#cfdada }
+tr.minister-line .email { width:300px }
 
-div.minister-list .pagination { text-align:center; font-size:14px }
-
+table.minister-list .pagination { text-align:center; font-size:14px }
 
 tr.church-line { margin:0px; padding:0px; font-size:14px; cursor:pointer }
 tr.church-line.header { background-color:#441; color:white; font-weight:bold; font-size:16px }
 tr.church-line.header:hover { background-color:#441 }
-tr.church-line.odd { background-color:rgb(240,240,240) }
+tr.church-line.odd { background-color:#dadacf }
 tr.church-line td { width:250px; padding:2px }
-tr.church-line:hover { background-color:#cc9 }
+tr.church-line:hover { background-color:#cfdada }
 tr.church-line .cities { width:306px }
+tr.church-line .empty { width:1px }
 
 table.church-list .pagination { text-align:center; font-size:14px }
 
@@ -225,4 +223,7 @@ div.people .para { font-size:14px; text-indent:0px; clear:left }
 
 div.people .read-more { cursor:pointer; text-decoration: underline; color:blue }
 
+.church-more { display:none; font-size:14px }
 
+.donation { margin-left:620px }
+.comments-form { font-size:14px }

@@ -1,0 +1,436 @@
+body { 
+  margin:0px; 
+  padding:0px; 
+  font-family:arial,helvetica,sans-serif;
+}
+
+.section1 { 
+  background-color:#441; 
+  border:solid 2px #fff; 
+  border-top-width:4px;
+  color:#fff;
+  padding-top:.5em;
+  padding-bottom:.3em;
+  height:20px;
+}
+
+.section2 { 
+  background-color:#cc9; 
+  border:solid 2px #fff; 
+  height:258px;
+
+  .pics {
+    border:1px solid #441;
+    height:245px;
+    width:816px;
+    padding:0px;
+    margin:5px auto;
+
+    img {
+      background-color:transparent; 
+      top:0px; 
+      left:0px;
+    }
+  }
+
+  .scripture {
+    color:#eef;
+    font-size:16pt;
+    z-index:1000;
+    position:relative;
+    top:-84px;
+    left:39%;
+    width:530px;
+    font-weight:bold;
+    font-size:16pt;
+    text-shadow:black 0.1em 0.1em 0.2em;
+    filter: Shadow(Color=#000000, Direction=135);
+  }
+}
+
+.section3 { 
+  background-color:#cc9; 
+  border:solid 2px #fff; 
+  height:8px;
+}
+
+.sectionTitle {
+  font-size:28px;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-align:center;
+  height:92px;
+  margin:0px;
+  background:url(/images/washington-district-bg3.gif) top left repeat-x transparent;
+}
+
+.topMenuHolder {
+  width:826px; 
+  margin:auto;
+}
+
+.main-home {
+  background: url(/images/home-bg.gif) repeat-y top left transparent;
+  min-height:200px; 
+  margin:auto; 
+  width:826px;
+
+  h1 {
+    margin:0px;
+  }
+}
+
+.alt-home {
+  min-height:200px; 
+  margin:auto; 
+  width:826px;
+}
+
+.main-left {
+  float:left; 
+  width:530px; 
+  padding-right:30px;
+
+  h3 { 
+    padding-left:4px; 
+    color:#441; 
+    background-color:#cc9; 
+    line-height:1.5; 
+  }
+}
+
+.alt-left {
+  float:left; 
+  width:826px;
+}
+
+.main-right {
+  float:left;
+}
+
+h4 { 
+  margin-bottom:0px; 
+  margin-top:0px; 
+}
+
+h5 { 
+  margin-bottom:0px; 
+  margin-top:0px; 
+  font-size:15px;
+}
+
+.footer {
+  border-top: solid 1px #441;
+  background: white;
+  height:60px;
+  padding-top:6px;
+  text-transform: uppercase;
+  font-size:10px;
+  color:#441;
+  font-weight:bold;
+}
+
+.footer-right {
+  float:right;
+}
+
+.events-sidebar {
+  float:left; 
+  width:240px; 
+  margin-bottom:10px; 
+  clear:left;
+
+  h3 {
+    margin-top:0px; 
+    margin-bottom:3px; 
+    background:#441; 
+    color:#cc9; 
+    width:100%; 
+    text-align:center; 
+    line-height:1.5;
+  }
+
+  ul {
+    margin-top:0px; 
+    padding:0;
+
+    li {
+      list-style-type:none;
+      font-size:10pt;
+      margin-bottom:5px;
+
+      span.date {
+        font-weight:bold;
+        color:#441;
+      }
+    }
+  }
+
+}
+
+.missions-sidebar {
+  float:left; 
+  width:240px; 
+  margin-bottom:1em;
+
+  .deputation {
+    font-size:10pt;
+
+    .dates {
+      font-weight:bold;
+    }
+  }
+
+  h3 {
+    margin-top:0px; 
+    margin-bottom:3px; 
+    background:#441; 
+    color:#cc9; 
+    width:100%; 
+    text-align:center; 
+    line-height:1.5;
+  }
+}
+
+.topmenu {
+  padding:0;
+  margin:0;
+  list-style:none;
+  line-height:1;
+
+  a {
+    display:block;
+    font-weight:bold; 
+    color:#fff; 
+    padding-left:.5em; 
+    padding-right:.5em;
+    text-decoration:none;
+    text-transform:uppercase;
+    border-left:1px solid white;
+
+    :hover { 
+      color:#cc9; 
+    }
+  }
+
+  li {
+    float:left;
+
+    .first {
+      a { 
+        border-left:none; 
+      }
+    }
+
+    :hover {
+      ul { 
+        left:auto;
+
+        ul { 
+          left:-999em; 
+        }
+      }
+    }
+
+    .last {
+      ul {
+        li {
+          a { 
+            width:6.9em; 
+          }
+        }
+      }
+    }
+
+    .sections {
+      ul {
+        li {
+          a {
+            width:7.9em;
+          }
+        }
+      }
+    }
+
+    ul {
+      position:absolute;
+      width:7em;
+      left:-999em;
+      z-index:1001;
+      line-height:1.6;
+      padding-top:3px;
+      background: #441;
+
+      a {
+        border-left:none;
+        background: #441;
+        font-size:90%;
+        width:9.9em;
+        white-space: nowrap;
+      }
+
+      ul {
+        margin: -1.4em 0 0 7em;
+        padding-top:0px;
+        width:10em;
+
+        a { 
+          width:9.9em; 
+        }
+      }
+    }
+
+    li {
+      :hover {
+        ul {
+          left: auto;
+        }
+      }
+    }
+  }
+}
+
+.para { 
+  text-indent:2em; 
+  margin-bottom:1em;
+}
+
+.para-hilite { 
+  font-style:italic; 
+  color:brown; 
+}
+
+table {
+  width: 100%;
+  vertical-align: top;
+
+  .thirds {
+    td {
+      width: 33%;
+    }
+  }
+
+  .halfs {
+    td {
+      width: 50%;
+    }
+  }
+
+  td { 
+    vertical-align:top; 
+    font-size:14px; 
+  }
+}
+
+#default {
+  .table-row {
+    margin:0px; 
+    padding:0px; 
+    font-size:14px; 
+    cursor:pointer;
+  }
+}
+
+tr {
+  .minister-line {
+    #default > .table-row;
+
+    td { 
+      width:100px; 
+      padding:2px; 
+    }
+
+    .email { 
+      width:300px; 
+    }
+  }
+
+  .church-line {
+    #default > .table-row;
+
+    td { 
+      width:250px; 
+      padding:2px; 
+    }
+
+    .cities { 
+      width:306px; 
+    }
+    
+    .empty { 
+      width:1px; 
+    }
+  }
+
+  .header {
+    background-color:#441; 
+    color:white; 
+    font-weight:bold; 
+    font-size:16px;
+
+    :hover {
+      background-color:#441;
+    }
+  }
+
+  .odd {
+    background-color:#dadacf;
+  }
+  
+  :hover { 
+    background-color:#cfdada; 
+  }
+
+}
+
+.pagination { 
+  text-align:center; 
+  font-size:14px; 
+}
+
+
+div {
+  .notice { 
+    text-align:center; 
+    font-size:10px; 
+    margin-bottom:6px;
+  }
+
+  .people {
+    h2 { 
+      margin:0px; 
+    }
+
+    h3 { 
+      margin:0px; 
+      padding-left:4px; 
+      color:#000; 
+      background-color:transparent; 
+    } 
+
+    .para {
+      font-size:14px; 
+      text-indent:0px; 
+      clear:left; 
+    }
+
+    .read-more { 
+      cursor:pointer; 
+      text-decoration: underline; 
+      color:blue; 
+    }
+  }
+}
+
+.church-more { 
+  display:none; 
+  font-size:14px; 
+}
+
+.donation { 
+  margin-left:620px;
+}
+
+.comments-form { 
+  font-size:14px;
+}
