@@ -1,8 +1,3 @@
-
-$j('#ss1').cycle({
-  fx: 'fade',
-  speed: 3600
-});
 $j(function(){
   var menus = $j('.topmenu > li');
   $j.each(menus,function(i,e){ 

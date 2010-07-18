@@ -128,6 +128,8 @@ h5 {
   font-size:10px;
   color:#441;
   font-weight:bold;
+  width:826px;
+  margin:auto;
 }
 
 .footer-right {
@@ -216,12 +218,6 @@ h5 {
   li {
     float:left;
 
-    .first {
-      a { 
-        border-left:none; 
-      }
-    }
-
     :hover {
       ul { 
         left:auto;
@@ -232,33 +228,15 @@ h5 {
       }
     }
 
-    .last {
-      ul {
-        li {
-          a { 
-            width:6.9em; 
-          }
-        }
-      }
-    }
-
-    .sections {
-      ul {
-        li {
-          a {
-            width:7.9em;
-          }
-        }
-      }
-    }
-
     ul {
       position:absolute;
       width:7em;
       left:-999em;
       z-index:1001;
       line-height:1.6;
-      padding-top:3px;
+      list-style:none;
+      margin:0;
+      padding:3px 0 0 0;
       background: #441;
 
       a {
@@ -284,6 +262,32 @@ h5 {
       :hover {
         ul {
           left: auto;
+        }
+      }
+    }
+  }
+
+  li.first {
+    a { 
+      border-left:none; 
+    }
+  }
+
+  li.last {
+    ul {
+      li {
+        a { 
+          width:6.9em; 
+        }
+      }
+    }
+  }
+
+  li.sections {
+    ul {
+      li {
+        a {
+          width:7.9em;
         }
       }
     }
@@ -327,62 +331,74 @@ table {
     margin:0px; 
     padding:0px; 
     font-size:14px; 
-    cursor:pointer;
   }
 }
 
-tr {
-  .minister-line {
-    #default > .table-row;
-
-    td { 
-      width:100px; 
-      padding:2px; 
-    }
-
-    .email { 
-      width:300px; 
-    }
-  }
-
-  .church-line {
-    #default > .table-row;
-
-    td { 
-      width:250px; 
-      padding:2px; 
-    }
-
-    .cities { 
-      width:306px; 
-    }
-    
-    .empty { 
-      width:1px; 
-    }
-  }
-
-  .header {
+.minister-list {
+  tr:hover.header {
     background-color:#441; 
-    color:white; 
-    font-weight:bold; 
-    font-size:16px;
-
-    :hover {
-      background-color:#441;
-    }
   }
-
-  .odd {
-    background-color:#dadacf;
-  }
-  
-  :hover { 
+  tr:hover {
     background-color:#cfdada; 
   }
-
 }
 
+.minister-line {
+  #default > .table-row;
+  cursor:pointer;
+
+  td { 
+    width:100px; 
+    padding:2px; 
+  }
+
+  .email { 
+    width:300px; 
+  }
+}
+
+
+.church-list {
+  tr.header:hover {
+    background-color:#441; 
+  }
+  tr:hover {
+    background-color:#cfdada; 
+  }
+}
+
+.church-line {
+  #default > .table-row;
+
+  td { 
+    width:250px; 
+    padding:2px; 
+  }
+
+  .cities { 
+    width:306px; 
+  }
+  
+  .empty { 
+    width:1px; 
+  }
+}
+
+.header {
+  background-color:#441; 
+  color:white; 
+  font-weight:bold; 
+  font-size:16px;
+
+  :hover {
+    background-color:#441;
+  }
+}
+
+.odd {
+  background-color:#dadacf;
+}
+  
 .pagination { 
   text-align:center; 
   font-size:14px; 
