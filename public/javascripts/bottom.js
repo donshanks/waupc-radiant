@@ -46,27 +46,33 @@ var handleError = function(error) {
 // object is passed in place of the feed URI
 $j(function(){
 
-  // Create the calendar service object
-  var calendarService = new google.gdata.calendar.CalendarService('GoogleInc-jsguide-1.0');
+  if( $j('.events-sidebar').length ) {
 
-  // The default "private/full" feed is used to retrieve events from 
-  // the primary private calendar with full projection 
-  var feedUri = 'http://www.google.com/calendar/feeds/waupci%40gmail.com/public/full';
+    // Create the calendar service object
+    var calendarService = new google.gdata.calendar.CalendarService('GoogleInc-jsguide-1.0');
 
-  // Create a CalendarEventQuery, and specify that this query is 
-  // applied toward the "private/full" feed
-  var query = new google.gdata.calendar.CalendarEventQuery(feedUri);
+    // The default "private/full" feed is used to retrieve events from 
+    // the primary private calendar with full projection 
+    var feedUri = 'http://www.google.com/calendar/feeds/waupci%40gmail.com/public/full';
 
-  // Create and set the minimum and maximum start time for the date query
-  var startMin = new google.gdata.DateTime( new Date() );
-  // var startMax = new google.gdata.DateTime( new Date( +(new Date()) + (1000 * 60 * 60 * 24 * 30) ) );
-  query.setMinimumStartTime(startMin);
-  // query.setMaximumStartTime(startMax);
-  query.setOrderBy('starttime');
-  query.setSortOrder('ascending');
-  query.setSingleEvents(true);
-  query.setMaxResults(5);
+    // Create a CalendarEventQuery, and specify that this query is 
+    // applied toward the "private/full" feed
+    var query = new google.gdata.calendar.CalendarEventQuery(feedUri);
 
-  calendarService.getEventsFeed(query, callback, handleError);
+    // Create and set the minimum and maximum start time for the date query
+    var startMin = new google.gdata.DateTime( new Date() );
+    query.setMinimumStartTime(startMin);
+    query.setOrderBy('starttime');
+    query.setSortOrder('ascending');
+    query.setSingleEvents(true);
+    query.setMaxResults(5);
+
+    if( typeof(searchTerm) != 'undefined' ){
+      query.setFullTextQuery(searchTerm);
+    }
+
+    calendarService.getEventsFeed(query, callback, handleError);
+
+  }
 
 });
