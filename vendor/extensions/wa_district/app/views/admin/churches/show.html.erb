@@ -1,0 +1,43 @@
+<% content_for :page_title do %>
+  <div>Washington District UPC Churches</div>
+<% end %>
+
+<h1 style="padding-left:5px"><%= @church.church_name %></h1>
+
+<div style="padding:1em">
+  <b>Pastor: </b><%= @church.minister.full_name %><br />
+  <b>Section: </b><%= @church.section %><br />
+  <b>Outreach Cities: </b><%= @church.outreach_cities %><br />
+  <b>Languages: </b><%= @church.languages %><br />
+  <br />
+  <b>Website: </b><%= link_to @church.web, @church.web %><br />
+  <b>Email: </b><%= mail_to @church.email %><br />
+  <br />
+  <b>Phone 1: </b><%= @church.phone %><br />
+  <b>Phone 2: </b><%= @church.phone2 %><br />
+  <b>Fax: </b><%= @church.fax %><br />
+</div>
+
+<table cellpadding="3" cellspacing="2" border="0" style="padding-left:5px">
+  <tr>
+    <td style="width:200px;background-color:#000088;color:white;font-weight:bold">Physical Address</td>
+    <td style="width:200px;background-color:#000088;color:white;font-weight:bold">Mailing Address</td>
+  </tr>
+  <tr>
+    <td>
+      <%= @church.physical_address %><br />
+      <%= @church.physical_city %><%= !@church.physical_city.nil_or_empty? ? ', WA ' : '' %><%= @church.physical_zip%><br />
+    </td>
+    <td>
+      <%= @church.mailing_address %><br />
+      <%= @church.mailing_city %><%= !@church.mailing_city.nil_or_empty? ? ', WA ' : '' %><%= @church.mailing_zip%><br />
+    </td>
+  </tr>
+</table>
+
+<br /><br />
+
+<div style="padding:1em">
+  <%= link_to 'Edit', edit_church_path(@church) %> |
+  <%= link_to 'Back', churches_path %>
+</div>

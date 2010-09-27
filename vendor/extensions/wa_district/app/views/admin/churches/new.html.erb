@@ -1,0 +1,97 @@
+<h1>Create New Church</h1>
+
+<div class="church-editing">
+
+<% form_for(@church) do |f| %>
+  <%= f.error_messages %>
+
+  <div style="float:left;clear:left">
+    <dl>
+      <dt>Church Name</dt>
+      <dd><%= f.text_field :church_name %></dd> 
+
+      <dt>Outreach Cities</dt>
+      <dd><%= f.text_field :outreach_cities %></dd> 
+
+      <dt>Section</dt>
+      <dd><%= f.select :section, [['One',1],['Two',2],['Three',3],['Four',4],['Five',5]] %></dd>
+
+      <dt>Website</dt>
+      <dd><%= f.text_field :web %></dd> 
+
+      <dt>Email Address</dt>
+      <dd><%= f.text_field :email %></dd>
+      <dt>Email is Public</dt>
+      <dd style="text-align:left"><%= f.check_box :show_email, { 'style' => 'width:auto' } %></dd> 
+
+      <br />
+
+      <dt>Physical Address</dt>
+      <dd><%= f.text_field :physical_address %></dd> 
+      <dt>Physical City</dt>
+      <dd><%= f.text_field :physical_city %></dd> 
+      <dt>Physical Zipcode</dt>
+      <dd><%= f.text_field :physical_zip %></dd> 
+
+      <dt>&nbsp;</dt>
+      <dd><%= f.text_field :lat, :class => "read_only", :disabled => true %>: 
+          <%= f.text_field :lon, :class => "read_only", :disabled => true %></dd>
+
+
+      <dt>&nbsp;</dt>
+      <dd><%= button_to_function "GeoCode", "lookupLatLong('#{@church.full_physical_address}')" %></dd>
+
+    </dl>
+  </div>
+
+  <div style="float:left">
+    <dl>
+      <dt>Pastor</dt>
+      <dd><%= f.collection_select :minister_id, 
+        Minister.find(:all, 
+          :conditions => ['status = ?','active'],
+          :order => 'lastname'
+        ), :id, :full_name_with_title, {:prompt => true} %></dd>
+
+      <dt>Languages</dt>
+      <dd><%= f.text_field :languages %></dd> 
+
+      <dt>Status</dt>
+      <dd><%= f.select :status, [['Active','active'],['Disabled','disabled']] %></dd>
+
+      <dt>Primary Phone</dt>
+      <dd><%= f.text_field :phone %></dd> 
+
+      <dt>Secondary Phone</dt>
+      <dd><%= f.text_field :phone2 %></dd> 
+
+      <dt>Fax</dt>
+      <dd><%= f.text_field :fax %></dd> 
+
+      <br />
+
+      <dt>Mailing Address</dt>
+      <dd><%= f.text_field :mailing_address %></dd> 
+      <dt>Mailing City</dt>
+      <dd><%= f.text_field :mailing_city %></dd> 
+      <dt>Mailing Zipcode</dt>
+      <dd><%= f.text_field :mailing_zip %></dd> 
+
+      <dt>&nbsp;</dt>
+      <dd>&nbsp;</dd>
+
+      <dt>&nbsp;</dt>
+      <dd><%= f.submit "Update" %></dd>
+    </dl>
+
+  </div>
+
+<% end %>
+</div>
+
+
+<div style="clear:both">
+  <br />&nbsp;<br />
+  <%= link_to 'Show', @church %> |
+  <%= link_to 'Back', churches_path %>
+</div>

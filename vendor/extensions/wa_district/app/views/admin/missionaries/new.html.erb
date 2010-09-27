@@ -1,0 +1,56 @@
+<div class="page-title">
+	<h2>New Missionary</h2>
+</div>
+<div class="main-content">
+
+	<p style="color: green"><%= flash[:notice] %></p>
+
+<% form_for(@missionary) do |f| %>
+  <%= f.error_messages %>
+
+  <table class="missionaries-table edit">
+
+  <tr>
+  	<th><%= f.label :firstname, 'First Name' %></td>
+	<td><%= f.text_field :firstname %></td>
+  </tr>
+
+  <tr>
+  	<th><%= f.label :lastname, 'Last Name' %></td>
+	<td><%= f.text_field :lastname %></td>
+  </tr>
+
+  <tr>
+  	<th><%= f.label :labor, 'Missionary Field' %></td>
+	<td><%= f.text_field :labor %></td>
+  </tr>
+
+  <tr>
+  	<th><%= f.label :phone, 'Phone Number' %></td>
+	<td><%= f.text_field :phone %></td>
+  </tr>
+
+  <tr>
+  	<th><%= f.label :email, 'E-mail Address' %></td>
+	<td><%= f.text_field :email %></td>
+  </tr>
+
+  <tr>
+  	<th><%= f.label :website, 'Missions Website' %></td>
+	<td><%= f.text_field :website %></td>
+  </tr>
+
+  <tr>
+  	<th><%= f.label :poster, 'Missions Poster' %></td>
+	<td><%= f.text_field :poster %></td>
+  </tr>
+
+  </table>
+  <br />
+
+  <div>
+    <%= f.submit "Create" %> &nbsp; &nbsp; &nbsp; <%= link_to 'Back', missionaries_path %>
+  </div>
+<% end %>
+
+</div>

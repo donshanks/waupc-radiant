@@ -315,3 +315,120 @@ div .people .read-more {
 .donation { margin-left: 620px; }
 .comments-form { font-size: 14px; }
 .no-background { background-color: transparent; }
+#section-churches caption {
+  background: url(/stylesheets/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png) white;
+  color: #444411;
+  font-weight: bold;
+  border-left: solid 1px #cbc7bd;
+  border-right: solid 1px #cbc7bd;
+}
+#section-churches tr:hover { background-color: #cfdada; }
+#section-churches td { font-size: 12px; }
+.reservation-row.first { border-top: solid 1px #dddddd; }
+.reservation-row {
+  clear: both;
+  padding: 6px;
+  height: 15px;
+  font-size: 14px;
+  border-bottom: solid 1px #dddddd;
+}
+.reservation-row div { float: left; }
+.reservation-row .more-info {
+  width: 75px;
+  background-color: #444411;
+  color: #cccc99;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-right: 6px;
+  font-size: 11px;
+}
+.reservation-row .name {
+  width: 150px;
+  vertical-align: top;
+}
+.reservation-row .labor { width: 350px; }
+.reservation-row .dates { width: 130px; }
+.reservation-one {
+  clear: both;
+  padding: 6px 0px;
+}
+.reservation-one .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.reservation-one .labor {
+  font-size: 14px;
+  font-style: italic;
+}
+.reservation-schedule {
+  clear: both;
+  display: none;
+}
+.reservation-schedule .schedule {
+  width: auto;
+  border-top: 2px solid #233c6f;
+  margin: 5px 5px 0px;
+}
+.reservation-schedule .schedule th {
+  background-color: #444411;
+  color: white;
+  font-size: 12px;
+  padding: 2px;
+}
+.reservation-schedule .schedule td {
+  background-color: white;
+  color: #223c6f;
+  font-size: 11px;
+  padding: 2px;
+}
+.reservation-schedule .schedule .day { width: 40px; }
+.reservation-schedule .schedule .date { width: 100px; }
+.reservation-schedule .schedule .time { width: 70px; }
+.reservation-schedule .schedule .city { width: 140px; }
+.reservation-schedule .schedule .church { width: 170px; }
+.reservation-schedule .schedule .pastor { width: 160px; }
+.reservation-schedule-one { clear: both; }
+.reservation-schedule-one .schedule { width: 95%; }
+.reservation-schedule-one .schedule th {
+  background-color: #444411;
+  color: white;
+  font-size: 14px;
+  padding: 4px;
+}
+.reservation-schedule-one .schedule td {
+  background-color: white;
+  color: #000000;
+  font-size: 14px;
+  padding: 4px 2px;
+  border-bottom: silver 1px solid;
+  padding: 4px;
+}
+.reservation-schedule-one .schedule td .missionary-info {
+  background-color: transparent;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+.reservation-schedule-one .schedule .day { width: 40px; }
+.reservation-schedule-one .schedule .date { width: 100px; }
+.reservation-schedule-one .schedule .time { width: 70px; }
+.reservation-schedule-one .schedule .city { width: 140px; }
+.reservation-schedule-one .schedule .church { width: 170px; }
+.reservation-schedule-one .schedule .pastor { width: 160px; }
+.reservation-update { line-height: 1.8; }
+.reservation-update label {
+  font-weight: bold;
+  float: left;
+  clear: left;
+  width: 110px;
+  padding-right: 6px;
+  text-align: right;
+}
+.reservation-update div input { width: 318px; }
+.reservation-update div input.short { width: 110px; }
+.reservation-update div textarea {
+  width: 318px;
+  height: 100px;
+  margin-top: 5px;
+}

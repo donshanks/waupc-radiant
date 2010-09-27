@@ -1,0 +1,2105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+		<meta name="description" content="The listing of churches in the Washington State District of the United Pentecostal Church International. This listing is searchable by City, Pastor and Zip Code. The listings contain contact information for the churches." />
+		<meta name="keywords" content="Churches searchable listings websites contact information pastore home missions Jesus Christ Salvation Name Pentecost Pentecostal Apostolic Eternal Life Acts 2:38 God Washington State District United Pentecostal Church Internal Bible Holy Ghost Global Impact Media Missions Apostolic Man Foregin Missions BREAD B.R.E.A.D. WAUPC" />
+		<title></title>
+		<link rel="stylesheet" href="/media/default.css" type="text/css" id="default-style" media="all" />
+		<link rel="stylesheet" href="/media/menubar.css" type="text/css" id="menu-style" media="all" />
+		
+							</head>
+	<body id="frontpage" class="yui-skin-sam">
+		<table id="frontpage_content" cellpadding="2" cellspacing="0" summary="Page Content Table">
+			<tr>
+				<td style="width:100%" valign="top">
+					<table cellspacing="0" cellpadding="3" class="frontpage-header-table" summary="Site Header">
+						<tr>
+							<td>
+								<table style="width:100%;" summary="">
+									<tr><td class="frontpage-header-line-top">
+										<img src="/media/trans.png" style="width:100%; height:1px;" alt="cleardot" />
+									</td></tr>
+									<tr><td>
+										<img src="/media/trans.png" style="height:1px;" alt="cleardot" />
+										<div class="frontpage-header">WASHINGTON&nbsp;&nbsp;DISTRICT&nbsp;&nbsp;UPCI</div>
+									</td></tr>
+									<tr><td class="frontpage-header-line-bottom">
+										<img src="/media/trans.png" style="width:100%; height:1px;" alt="cleardot" />
+									</td></tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" summary="Main Menu">
+						<tr>
+							<td style="width:1px"><img id="verticalSpacer" src="media/trans.png" width="1" height="400" alt="" /></td>
+							<td style="vertical-align: top;">
+								<!--[if IE]>
+<style type="text/css">
+.menubar .menuitem button, .menubar .menuitem input { padding-top:2px }	
+</style>
+<![endif]-->
+<div id="dMenuBar" class="menubar horiz-menu">
+	<div class="menuitem" id="home_menuitem"><input type="button" id="menubutton1" value="Home" name="menubutton1_button" /></div>
+	<div class="menuitem"><input type="button" id="menubutton2" value="Officials" name="menubutton2_button" /></div>
+	<div class="menuitem"><input type="button" id="menubutton3" value="Departments" name="menubutton3_button" /></div>
+	<div class="menuitem"><input type="button" id="menubutton4" value="Churches" name="menubutton4_button" /></div>
+	<div class="menuitem"><input type="button" id="menubutton5" value="Ministers" name="menubutton5_button" /></div>
+	<div class="menuitem lastitem"><input type="button" id="menubutton6" value="Events" name="menubutton6_button" /></div>
+</div>
+<br style="clear:both" />
+<div style="display:none">
+<a href="/" id="menubutton1_href">Home Page</a>
+<a href="/depts/districtboard/superintendent.html">District Superintendent</a>
+<a href="/depts/districtboard/secretary.html">District Secretary</a>
+<a href="/depts/districtboard/section1.html">Section One Presbyter</a>
+<a href="/depts/districtboard/section2.html">Section Two Presbyter</a>
+<a href="/depts/districtboard/section3.html">Section Three Presbyter</a>
+<a href="/depts/districtboard/section4.html">Section Four Presbyter</a>
+<a href="/depts/districtboard/section5.html">Section Five Presbyter</a>
+<a href="/depts/districtboard/honorarypresbyter.html">Honorary Presbyters</a>
+<a href="/depts/apostolicman.html">Apostolic Man</a>
+<a href="/depts/foreignmissions.html">Foreign Missions</a>
+<a href="/depts/homemissions.html">Home Missions</a>
+<a href="/depts/ladies.html">Ladies Ministries</a>
+<a href="/depts/mediamissions.html">Media Missions</a>
+<a href="/depts/bookstore.html">Pentecostal Bookstore</a>
+<a href="/depts/sundayschool.html">Sunday School</a>
+<a href="http://www.waword.com">Washington Word</a>
+<a href="http://www.upcyouth.org">Youth Ministries</a>
+<a href="/churches.html">Churches in Washington</a>
+<a href="http://wec.upci.org/churches/">Churches outside Washington</a>
+<a href="/emails.html">Ministers</a>
+<a href="/page/event-calendar.html">Events</a>
+</div>								<span class="spacer">&#160;</span><br />
+								<script type="text/javascript">
+	<!--
+	function toggleInfo(block) {
+		rollUpAll(block);
+		var show = ( navigator.userAgent.indexOf('MSIE') > -1 ) ? 'inline' : 'table-row';
+		el = document.getElementById(block);
+		if ( el.style.display == show ) { el.style.display = 'none'; }
+		else                            { el.style.display = show;   }
+	}
+	function rollUpAll(block) {
+		var list = document.getElementsByTagName('tr');
+		for ( i = 0; i < list.length; i++ ) {
+			if ( list[i].id.indexOf('church_') == 0 && list[i].id != block ) {
+				list[i].style.display = 'none';
+			}
+		}
+	}
+	function sortBy(sortfield,sortdir) {
+		f = document.forms['findchurch'];
+		f.sort.value=sortfield;
+		f.sdir.value=sortdir;
+		f.findname.click();
+	}
+	function clearSearch() {
+		f = document.forms['findchurch'];
+		f.fsearch.value='';
+		f.sort.value='church_name';
+		f.sdir.value='ASC';
+	}
+	-->
+</script>
+<div style="padding-top:1em;width:95%;margin:auto;">
+	<div style="float:left;"><img src="/images/districtlogo5.jpg" width="300" height="192" alt="Washington District UPCI"/></div>
+	<div style="padding:1em;height:192px;">
+		<div style="padding-bottom:1em;">
+			<h3 style="margin-top:0px;margin-bottom:2px;">Search for a church</h3>
+			You can search by all or part of the church name or Pastor's name or you can search 
+			by city. If you just want to find the closest church in Washington to you, type in a 
+			zip code. Press the 'Show All' button to see the complete list.<br />
+		</div>
+		<form name="findchurch" method="post" action="/churches">
+			<table summary="Search Form">
+				<tr>
+					<td><input name="fsearch" type="text" class="label" value="" /></td>
+					<td><input type="submit" name="findname" value="Search" /></td>
+					<!-- td><input type="submit" name="findnear" value="Find Nearest" /></td -->
+					<td><input type="submit" name="findall" value="Show All" onClick="clearSearch();" /></td>
+				</tr>
+			</table>
+			<input type="hidden" name="sort" value="church_name" />
+			<input type="hidden" name="sdir" value="ASC" />
+		</form>
+		If you feel any of the information listed below is incorrect or missing, contact the 
+		<script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,119,101,98,100,101,118,64,119,97,117,112,99,46,110,101,116,34,32,62,87,101,98,32,68,101,118,101,108,111,112,109,101,110,116,32,84,101,97,109,60,47,97,62))}
+//-->
+</script>
+
+	</div>
+		<table cellpadding="0" cellspacing="0" class="church-list" summary="All Churches">
+		<tr class="header">
+			<th>&#160;</th>
+			<th>
+									<a class="sort" href="javascript:sortBy('church_name','ASC');">Church Name</a> 
+							</th>
+						<th>
+									<a class="sort" href="javascript:sortBy('physical_city','ASC');">City</a> 
+							</th>
+			<th>
+									<a class="sort" href="javascript:sortBy('pastor','ASC');">Pastor</a> 
+							</th>
+		</tr> 
+				<tr>
+			<td><a href="javascript:toggleInfo('church_4');">More Info</a></td>
+			<td>Abundant Hope Fellowship</td>
+						<td>Bremerton</td>
+			<td>Terry Painter</td>
+		</tr>
+		<tr id="church_4" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-373-7684<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.abundanthopefellowship.com/" target="_blank">http://www.abundanthopefellowship.com/</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1940 Sylvan Way<br />
+						Bremerton<br />
+						98310-4700<br />
+						<a href="http://maps.google.com/maps?q=1940+Sylvan+Way%2CBremerton%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_30');">More Info</a></td>
+			<td>Abundant Life Apostolic Church</td>
+						<td>Olympia</td>
+			<td>Franklin D. Simmons</td>
+		</tr>
+		<tr id="church_30" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-357-5490<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="http://www.alac.net" target="_blank">http://www.alac.net</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						2220 Muirhead Ave NW<br />
+						Olympia<br />
+						98502-4154<br />
+						<a href="http://maps.google.com/maps?q=2220+Muirhead+Ave+NW%2COlympia%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						<br />
+						<br />
+						<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_54');">More Info</a></td>
+			<td>Abundant Life Tabernacle</td>
+						<td>Walla Walla</td>
+			<td>Jeffrey S. Hall</td>
+		</tr>
+		<tr id="church_54" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-529-2127<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.altwallawalla.com" target="_blank">http://www.altwallawalla.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1625 E Alder St<br />
+						Walla Walla<br />
+						99632-2655<br />
+						<a href="http://maps.google.com/maps?q=1625+E+Alder+St%2CWalla+Walla%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_15');">More Info</a></td>
+			<td>Apostolic Faith Tabernacle</td>
+						<td>Ellensburg</td>
+			<td>Walter P. Davenport</td>
+		</tr>
+		<tr id="church_15" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-925-6272<br /> 
+						<b>Fax: </b>509-925-1660<br /> 
+						 
+													<b>Website: </b> <a href="http://ellensburgapostolicfaithupc.xnapster.com/" target="_blank">http://ellensburgapostolicfaithupc.xnapster.com/</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						403 S. Water St<br />
+						Ellensburg<br />
+						98926-7383<br />
+						<a href="http://maps.google.com/maps?q=403+S.+Water+St%2CEllensburg%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						P.O. Box 678<br />
+						Ellensburg<br />
+						98926-0678<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_5');">More Info</a></td>
+			<td>Apostolic Life Tabernacle</td>
+						<td>Bremerton</td>
+			<td>Roger D. Hennigan</td>
+		</tr>
+		<tr id="church_5" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-373-9658<br /> 
+						<b>Fax: </b>360-377-6143<br /> 
+						 
+													<b>Website: </b> <a href="http://www.altbremerton.com" target="_blank">http://www.altbremerton.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1248 9th St<br />
+						Bremerton<br />
+						98337-1302<br />
+						<a href="http://maps.google.com/maps?q=1248+9th+St%2CBremerton%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						<br />
+						<br />
+						<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_59');">More Info</a></td>
+			<td>Apostolic Lighthouse UPC</td>
+						<td>Vancouver</td>
+			<td>Vicente Salazar</td>
+		</tr>
+		<tr id="church_59" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-883-2694<br /> 
+						<b>Fax: </b><br /> 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,83,97,108,97,122,97,114,118,106,64,97,111,108,46,99,111,109,34,32,62,83,97,108,97,122,97,114,118,106,64,97,111,108,46,99,111,109,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						call for location<br />
+						Vancouver<br />
+						98684<br />
+						<a href="http://maps.google.com/maps?q=call+for+location%2CVancouver%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						12214 NE 2nd Street<br />
+						Vancouver<br />
+						98684<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_21');">More Info</a></td>
+			<td>Apostolic Tabernacle of Kirkland</td>
+						<td>Kirkland</td>
+			<td>David L. Tingley</td>
+		</tr>
+		<tr id="church_21" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425-417-4793<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.apostolictab.com" target="_blank">http://www.apostolictab.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						308 4th Ave S<br />
+						Kirkland<br />
+						98033-6612<br />
+						<a href="http://maps.google.com/maps?q=308+4th+Ave+S%2CKirkland%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						12708 NE 156th St<br />
+						Woodenville<br />
+						98072<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_6');">More Info</a></td>
+			<td>Believer's Celebration Church</td>
+						<td>Brush Prairie</td>
+			<td>Nathaniel Yadon</td>
+		</tr>
+		<tr id="church_6" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-892-3332<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						14214 NE 230th Ct<br />
+						Brush Prairie<br />
+						98606-4209<br />
+						<a href="http://maps.google.com/maps?q=14214+NE+230th+Ct%2CBrush+Prairie%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						P.O. Box 820486<br />
+						Vancouver<br />
+						98682<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_35');">More Info</a></td>
+			<td>Bethel Christian Fellowship</td>
+						<td>Port Orchard</td>
+			<td>Kevin J. Crissman</td>
+		</tr>
+		<tr id="church_35" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-769-2470<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						615 Kendall St<br />
+						Port Orchard<br />
+						98366-4331<br />
+						<a href="http://maps.google.com/maps?q=615+Kendall+St%2CPort+Orchard%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 1714<br />
+						Port Orchard<br />
+						98366-0179<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_29');">More Info</a></td>
+			<td>Calvary Tabernacle UPC</td>
+						<td>Mountlake Terrace</td>
+			<td>Gary O. Blaylock</td>
+		</tr>
+		<tr id="church_29" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425-776-8727<br /> 
+						<b>Fax: </b>425-776-8849<br /> 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,105,110,102,111,64,105,97,109,102,111,114,103,105,118,101,110,46,99,111,109,34,32,62,105,110,102,111,64,105,97,109,102,111,114,103,105,118,101,110,46,99,111,109,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+													<b>Website: </b> <a href="http://www.iamforgiven.com" target="_blank">http://www.iamforgiven.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						5507 236th St SW<br />
+						Mountlake Terrace<br />
+						98043-5231<br />
+						<a href="http://maps.google.com/maps?q=5507+236th+St+SW%2CMountlake+Terrace%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_9');">More Info</a></td>
+			<td>Calvary UPC</td>
+						<td>Chelan</td>
+			<td>John Wilsey</td>
+		</tr>
+		<tr id="church_9" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-679-2959<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						605 N. Bradley St<br />
+						Chelan<br />
+						98816<br />
+						<a href="http://maps.google.com/maps?q=605+N.+Bradley+St%2CChelan%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 2199<br />
+						Chelen<br />
+						98816-2199<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_13');">More Info</a></td>
+			<td>Christian Life Center</td>
+						<td>East Wenatchee</td>
+			<td>Garrett Jester</td>
+		</tr>
+		<tr id="church_13" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-884-3232<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						400 Rock Island Rd<br />
+						East Wenatchee<br />
+						98802-5360<br />
+						<a href="http://maps.google.com/maps?q=400+Rock+Island+Rd%2CEast+Wenatchee%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_40');">More Info</a></td>
+			<td>Christian Life Center</td>
+						<td>SeaTac</td>
+			<td>Steven R. Seagraves</td>
+		</tr>
+		<tr id="church_40" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>206-244-5115<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1900 S. 146th Street, Suite B<br />
+						SeaTac<br />
+						98168<br />
+						<a href="http://maps.google.com/maps?q=1900+S.+146th+Street%2C+Suite+B%2CSeaTac%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 68683<br />
+						SeaTac<br />
+						98168-0683<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_8');">More Info</a></td>
+			<td>Christian Life Church</td>
+						<td>Camas</td>
+			<td>Steven C. Smith</td>
+		</tr>
+		<tr id="church_8" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-834-0935<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.angelfire.com/wa/upci/index.html" target="_blank">http://www.angelfire.com/wa/upci/index.html</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1303 NE Garfield St<br />
+						Camas<br />
+						98607-1373<br />
+						<a href="http://maps.google.com/maps?q=1303+NE+Garfield+St%2CCamas%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_48');">More Info</a></td>
+			<td>Connect Point</td>
+						<td>Spokane</td>
+			<td>Gregory Glover</td>
+		</tr>
+		<tr id="church_48" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-325-0960<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1316 N Lincoln<br />
+						Spokane<br />
+						99201<br />
+						<a href="http://maps.google.com/maps?q=1316+N+Lincoln%2CSpokane%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						P.O. Box 9127<br />
+						Spokane<br />
+						99209<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_47');">More Info</a></td>
+			<td>Cornerstone Pentecostal Church</td>
+						<td>Spokane</td>
+			<td>Richard B. Mayo</td>
+		</tr>
+		<tr id="church_47" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-921-1543<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.spokanecornerstonechurch.org/" target="_blank">http://www.spokanecornerstonechurch.org/</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						12817 E Broadway Ave<br />
+						Spokane<br />
+						99216-0912<br />
+						<a href="http://maps.google.com/maps?q=12817+E+Broadway+Ave%2CSpokane%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 141722<br />
+						Spokane<br />
+						99214-1722<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_14');">More Info</a></td>
+			<td>Cornerstone Slavic Church</td>
+						<td>Puyallup</td>
+			<td>Safron Rudkovsky</td>
+		</tr>
+		<tr id="church_14" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>253-445-2405<br /> 
+						<b>Fax: </b>253-445-2405<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						12029 128th Ct. E.<br />
+						Puyallup<br />
+						98374<br />
+						<a href="http://maps.google.com/maps?q=12029+128th+Ct.+E.%2CPuyallup%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_34');">More Info</a></td>
+			<td>Cornerstone Tabernacle UPC</td>
+						<td>Port Angeles</td>
+			<td>Kevin R. Jones</td>
+		</tr>
+		<tr id="church_34" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-457-0590<br /> 
+						<b>Fax: </b>425-2034234<br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						2407 Arbutus Ct<br />
+						Port Angeles<br />
+						98363-2332<br />
+						<a href="http://maps.google.com/maps?q=2407+Arbutus+Ct%2CPort+Angeles%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						<br />
+						<br />
+						<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_22');">More Info</a></td>
+			<td>First Church of Lacey</td>
+						<td>Lacey</td>
+			<td>Michael &amp; Brenda Gurley</td>
+		</tr>
+		<tr id="church_22" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-539-5939<br /> 
+						<b>Fax: </b>360-539-5939<br /> 
+						 
+													<b>Website: </b> <a href="http://www.firstchurchwa.com" target="_blank">http://www.firstchurchwa.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						<br />
+						Lacey<br />
+						<br />
+						<a href="http://maps.google.com/maps?q=%2CLacey%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 5909<br />
+						Lacey<br />
+						98509-5909<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_2');">More Info</a></td>
+			<td>First Pentecostal Church of Puget Sound</td>
+						<td>Sumner</td>
+			<td>Kenneth W. Bow</td>
+		</tr>
+		<tr id="church_2" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>253-862-4314<br /> 
+						<b>Fax: </b>253-862-7422<br /> 
+						 
+													<b>Website: </b> <a href="http://www.fpcofpugetsound.com" target="_blank">http://www.fpcofpugetsound.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						18111 17th St E<br />
+						Sumner<br />
+						98390-9450<br />
+						<a href="http://maps.google.com/maps?q=18111+17th+St+E%2CSumner%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						<br />
+						<br />
+						<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_56');">More Info</a></td>
+			<td>First United Pentecostal Church</td>
+						<td>Yakima</td>
+			<td>Daniel Leslie</td>
+		</tr>
+		<tr id="church_56" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-543-6247<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1118 McKinley Ave<br />
+						Yakima<br />
+						98902-2025<br />
+						<a href="http://maps.google.com/maps?q=1118+McKinley+Ave%2CYakima%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_20');">More Info</a></td>
+			<td>Kennewick Apostolic Tabernacle</td>
+						<td>Kennewick</td>
+			<td>Wayne Clemetson</td>
+		</tr>
+		<tr id="church_20" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-586-3412<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						201 S Auburn St<br />
+						Kennewick<br />
+						99336-3908<br />
+						<a href="http://maps.google.com/maps?q=201+S+Auburn+St%2CKennewick%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_49');">More Info</a></td>
+			<td>Lakewood United Pentecostal Church</td>
+						<td>Lakewood</td>
+			<td>David L. DaPron</td>
+		</tr>
+		<tr id="church_49" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>253-912-0351<br /> 
+						<b>Fax: </b>360-412-7994<br /> 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,108,97,107,101,119,111,111,100,117,112,99,64,97,111,108,46,99,111,109,34,32,62,108,97,107,101,119,111,111,100,117,112,99,64,97,111,108,46,99,111,109,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+													<b>Website: </b> <a href="http://www.lakewoodupc.org" target="_blank">http://www.lakewoodupc.org</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						9125 Gravelly Lake Dr SW<br />
+						Lakewood<br />
+						98499-3111<br />
+						<a href="http://maps.google.com/maps?q=9125+Gravelly+Lake+Dr+SW%2CLakewood%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 308<br />
+						Dupont<br />
+						98327-0308<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_24');">More Info</a></td>
+			<td>Landmark United Pentecostal Church</td>
+						<td>Longview</td>
+			<td>Ronald C. Seagraves</td>
+		</tr>
+		<tr id="church_24" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-636-0580<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						4333 Ocean Beach Hwy<br />
+						Longview<br />
+						98632-4825<br />
+						<a href="http://maps.google.com/maps?q=4333+Ocean+Beach+Hwy%2CLongview%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						<br />
+						<br />
+						<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_46');">More Info</a></td>
+			<td>Life Way UPC</td>
+						<td>Bremerton</td>
+			<td>Roger J. Hennigan</td>
+		</tr>
+		<tr id="church_46" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-308-8238<br /> 
+						<b>Fax: </b><br /> 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,114,101,118,114,106,104,101,110,110,105,103,97,110,64,108,105,102,101,119,97,121,117,112,99,46,99,111,109,34,32,62,114,101,118,114,106,104,101,110,110,105,103,97,110,64,108,105,102,101,119,97,121,117,112,99,46,99,111,109,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+													<b>Website: </b> <a href="http://www.lifewayupc.com" target="_blank">http://www.lifewayupc.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						9981 Central Valley Rd NW<br />
+						Bremerton<br />
+						98311-7102<br />
+						<a href="http://maps.google.com/maps?q=9981+Central+Valley+Rd+NW%2CBremerton%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 3894<br />
+						Silverdale<br />
+						98383-3894<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_33');">More Info</a></td>
+			<td>Lighthouse International UPCI</td>
+						<td>Pasco</td>
+			<td>Andres Ramirez</td>
+		</tr>
+		<tr id="church_33" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-545-0401<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1734 N 5th Ave<br />
+						Pasco<br />
+						99301-3603<br />
+						<a href="http://maps.google.com/maps?q=1734+N+5th+Ave%2CPasco%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 349<br />
+						Pasco<br />
+						99301-0349<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_42');">More Info</a></td>
+			<td>Lighthouse Tabernacle UPC</td>
+						<td>Shoreline</td>
+			<td>Dexter A. Holmes</td>
+		</tr>
+		<tr id="church_42" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>206-362-1857<br /> 
+						<b>Fax: </b>206-362-2857<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						753 N 185th St<br />
+						Shoreline<br />
+						98133-3901<br />
+						<a href="http://maps.google.com/maps?q=753+N+185th+St%2CShoreline%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						18046 Corliss Ave N<br />
+						Shoreline<br />
+						98133-4641<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_16');">More Info</a></td>
+			<td>Living Faith Tabernacle</td>
+						<td>Everett</td>
+			<td>Clifford R. Barnett</td>
+		</tr>
+		<tr id="church_16" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425-259-3730<br /> 
+						<b>Fax: </b>425-338-4781<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						2602 Hoyt Ave<br />
+						Everett<br />
+						98201-2909<br />
+						<a href="http://maps.google.com/maps?q=2602+Hoyt+Ave%2CEverett%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_11');">More Info</a></td>
+			<td>New Life Apostolic Church</td>
+						<td>Colville</td>
+			<td>Duane B. Gettys</td>
+		</tr>
+		<tr id="church_11" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>506-684-5207<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						890 N Cedar St<br />
+						Colville<br />
+						99114-9427<br />
+						<a href="http://maps.google.com/maps?q=890+N+Cedar+St%2CColville%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_58');">More Info</a></td>
+			<td>New Life Christian Center - UPCI</td>
+						<td>Kent</td>
+			<td>Miguel Lacsamana</td>
+		</tr>
+		<tr id="church_58" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>206-949-4258<br /> 
+						<b>Fax: </b><br /> 
+						 
+							<b>E-mail: </b> <br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						22600 116th Ave. SE<br />
+						Kent<br />
+						98031<br />
+						<a href="http://maps.google.com/maps?q=22600+116th+Ave.+SE%2CKent%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						22803 125th Ave. SE<br />
+						Kent<br />
+						98031<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_43');">More Info</a></td>
+			<td>New Life Fellowship UPC</td>
+						<td>Bothell</td>
+			<td>Todd K. Weber</td>
+		</tr>
+		<tr id="church_43" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425-485-5074<br /> 
+						 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,116,119,101,98,101,114,64,110,101,119,108,105,102,101,102,101,108,108,111,119,115,104,105,112,46,99,111,109,34,32,62,116,119,101,98,101,114,64,110,101,119,108,105,102,101,102,101,108,108,111,119,115,104,105,112,46,99,111,109,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+													<b>Website: </b> <a href="http://www.newlifefellowship.com" target="_blank">http://www.newlifefellowship.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						20618 Filbert Drive<br />
+						Bothell<br />
+						98012-9611<br />
+						<a href="http://maps.google.com/maps?q=20618+Filbert+Drive%2CBothell%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_37');">More Info</a></td>
+			<td>New Life Pentecostal Church</td>
+						<td>Puyallup</td>
+			<td>Larry R. Schoonover</td>
+		</tr>
+		<tr id="church_37" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>253-840-0188<br /> 
+						<b>Fax: </b>206-339-2461<br /> 
+						 
+													<b>Website: </b> <a href="http://www.newlife-apostolic.com" target="_blank">http://www.newlife-apostolic.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						903 3rd St NE<br />
+						Puyallup<br />
+						98372-2911<br />
+						<a href="http://maps.google.com/maps?q=903+3rd+St+NE%2CPuyallup%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						<br />
+						<br />
+						<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_28');">More Info</a></td>
+			<td>New Life Tabernacle</td>
+						<td>Moses Lake</td>
+			<td>Garth J. Gilmartin</td>
+		</tr>
+		<tr id="church_28" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-764-7283<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1713 E Pirate Ln<br />
+						Moses Lake<br />
+						98837-8804<br />
+						<a href="http://maps.google.com/maps?q=1713+E+Pirate+Ln%2CMoses+Lake%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_68');">More Info</a></td>
+			<td>Oak Harbor UPC</td>
+						<td>Oak Harbor</td>
+			<td>Mark Dillon</td>
+		</tr>
+		<tr id="church_68" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>(404) 661-4653<br /> 
+						<b>Fax: </b><br /> 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,109,100,105,108,108,111,110,64,111,97,107,104,97,114,98,111,114,117,112,99,46,99,111,109,34,32,62,109,100,105,108,108,111,110,64,111,97,107,104,97,114,98,111,114,117,112,99,46,99,111,109,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+													<b>Website: </b> <a href="http://www.oakharborupc.com" target="_blank">http://www.oakharborupc.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						41 NE Midway Blvd. Suite 103<br />
+						Oak Harbor<br />
+						98277<br />
+						<a href="http://maps.google.com/maps?q=41+NE+Midway+Blvd.+Suite+103%2COak+Harbor%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO BOX 670<br />
+						Oak Harbor<br />
+						98277<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_26');">More Info</a></td>
+			<td>Olympic Christian Center</td>
+						<td>McCleary</td>
+			<td>Brian Orffer</td>
+		</tr>
+		<tr id="church_26" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-495-3832<br /> 
+						<b>Fax: </b>360-866-1779<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						117 8th St<br />
+						McCleary<br />
+						98557-9688<br />
+						<a href="http://maps.google.com/maps?q=117+8th+St%2CMcCleary%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 5<br />
+						McCleary<br />
+						98557-0005<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_38');">More Info</a></td>
+			<td>Renaissance Apostolic Church</td>
+						<td>Renton</td>
+			<td>Craig H. Warren</td>
+		</tr>
+		<tr id="church_38" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425-277-4682<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.renapchurch.org/" target="_blank">http://www.renapchurch.org/</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						708 SW 13th St.<br />
+						Renton<br />
+						98055-3105<br />
+						<a href="http://maps.google.com/maps?q=708+SW+13th+St.%2CRenton%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_3');">More Info</a></td>
+			<td>Sanctuary of Praise</td>
+						<td>Bellevue</td>
+			<td>Harold M. Kern</td>
+		</tr>
+		<tr id="church_3" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425-747-7609<br /> 
+						<b>Fax: </b>425-747-7679<br /> 
+						 
+													<b>Website: </b> <a href="http://www.SanctuaryOfPraise.com/" target="_blank">http://www.SanctuaryOfPraise.com/</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						15800 SE Newport Way<br />
+						Bellevue<br />
+						98006-1838<br />
+						<a href="http://maps.google.com/maps?q=15800+SE+Newport+Way%2CBellevue%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_63');">More Info</a></td>
+			<td>Soul's Harbour Pentecostal Church</td>
+						<td>Lynnwood</td>
+			<td>Darell Dauenhauer</td>
+		</tr>
+		<tr id="church_63" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>425 293-2653<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						5326 176th St SW<br />
+						Lynnwood<br />
+						98037<br />
+						<a href="http://maps.google.com/maps?q=5326+176th+St+SW%2CLynnwood%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						17214 Interurban Blvd<br />
+						Snohomish<br />
+						98296<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_50');">More Info</a></td>
+			<td>Tacoma United Pentecostal Church</td>
+						<td>Tacoma</td>
+			<td>Rocky Dunlap</td>
+		</tr>
+		<tr id="church_50" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>888-474-6114<br /> 
+						<b>Fax: </b>253-474-6114<br /> 
+						 
+													<b>Website: </b> <a href="http://www.tacomaupc.org" target="_blank">http://www.tacomaupc.org</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						3201 S 43rd St<br />
+						Tacoma<br />
+						98409-5513<br />
+						<a href="http://maps.google.com/maps?q=3201+S+43rd+St%2CTacoma%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_67');">More Info</a></td>
+			<td>The Intersection Church</td>
+						<td>Union Gap</td>
+			<td>Curtis Johnstone</td>
+		</tr>
+		<tr id="church_67" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-965-4816<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.theintersectionchurch.com/" target="_blank">http://www.theintersectionchurch.com/</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						2107 South 3rd Ave<br />
+						Union Gap<br />
+						98903<br />
+						<a href="http://maps.google.com/maps?q=2107+South+3rd+Ave%2CUnion+Gap%2CWA" target="_blank">Google Map</a>
+					</td> 
+															</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_64');">More Info</a></td>
+			<td>The Lighthouse</td>
+						<td>Wapato</td>
+			<td>Larry Schoonover</td>
+		</tr>
+		<tr id="church_64" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509 388-0924<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="http://www.wapatolighthouse.com" target="_blank">http://www.wapatolighthouse.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						105 East 4th Street<br />
+						Wapato<br />
+						98951<br />
+						<a href="http://maps.google.com/maps?q=105+East+4th+Street%2CWapato%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 1145<br />
+						Wapato<br />
+						98951<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_1');">More Info</a></td>
+			<td>The Pentecostals of Anacortes</td>
+						<td>Anacortes</td>
+			<td>Edward L. Robinson</td>
+		</tr>
+		<tr id="church_1" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-299-2339<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						902 5th Street<br />
+						Anacortes<br />
+						98221<br />
+						<a href="http://maps.google.com/maps?q=902+5th+Street%2CAnacortes%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 1628<br />
+						Anacortes<br />
+						98221-6628<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_17');">More Info</a></td>
+			<td>The Pentecostals of Gig Harbor</td>
+						<td>Gig Harbor</td>
+			<td>Roger J. Roth</td>
+		</tr>
+		<tr id="church_17" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>253-884-5162<br /> 
+						<b>Fax: </b><br /> 
+						 
+							<b>E-mail: </b> <br /> 
+						 
+													<b>Website: </b> <a href="http://www.pacgh.com" target="_blank">http://www.pacgh.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						3025 Vernhardson St.<br />
+						Gig Harbor<br />
+						98335<br />
+						<a href="http://maps.google.com/maps?q=3025+Vernhardson+St.%2CGig+Harbor%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 487<br />
+						Gig Harbor<br />
+						98335-0487<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_69');">More Info</a></td>
+			<td>The Stehekin Church</td>
+						<td>Stehekin</td>
+			<td>John Wilsey</td>
+		</tr>
+		<tr id="church_69" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b><br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						<br />
+						Stehekin<br />
+						98852<br />
+						<a href="http://maps.google.com/maps?q=%2CStehekin%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 5<br />
+						Stehekin<br />
+						98852<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_19');">More Info</a></td>
+			<td>The World of Praise UPC</td>
+						<td>Hoquiam</td>
+			<td>Ronald L. Smith</td>
+		</tr>
+		<tr id="church_19" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-533-6614<br /> 
+						<b>Fax: </b>360-533-5053<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						601 Karr Ave<br />
+						Hoquiam<br />
+						98550-1844<br />
+						<a href="http://maps.google.com/maps?q=601+Karr+Ave%2CHoquiam%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						208 Garfield St<br />
+						Hoquiam<br />
+						98550<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_51');">More Info</a></td>
+			<td>Toppenish UPC</td>
+						<td>Toppenish</td>
+			<td>James L. Davenport</td>
+		</tr>
+		<tr id="church_51" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-452-0847<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						101 S E St<br />
+						Toppenish<br />
+						98948-1739<br />
+						<a href="http://maps.google.com/maps?q=101+S+E+St%2CToppenish%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 68<br />
+						Toppenish<br />
+						98948-0068<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_39');">More Info</a></td>
+			<td>Tower of Pentecost</td>
+						<td>Richland</td>
+			<td>Grant W. Knowles</td>
+		</tr>
+		<tr id="church_39" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509-946-8504<br /> 
+						 
+						 
+													<b>Website: </b> <a href="http://www.towerofpentecost.com" target="_blank">http://www.towerofpentecost.com</a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						930 Aaron Drive<br />
+						Richland<br />
+						99352<br />
+						<a href="http://maps.google.com/maps?q=930+Aaron+Drive%2CRichland%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						2611 S. Kent ST.<br />
+						Kennewick<br />
+						99337-7809<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_12');">More Info</a></td>
+			<td>True Freedom Pentecostal Church</td>
+						<td>Kent</td>
+			<td>Johnny Bishop</td>
+		</tr>
+		<tr id="church_12" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>206-870-9112<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						21234 84th Ave S.<br />
+						Kent<br />
+						98032-1967<br />
+						<a href="http://maps.google.com/maps?q=21234+84th+Ave+S.%2CKent%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						P.O. Box 98203<br />
+						Des Moines<br />
+						98198<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_36');">More Info</a></td>
+			<td>True Vine Pentecostal</td>
+						<td>Poulsbo</td>
+			<td>Mark Musick</td>
+		</tr>
+		<tr id="church_36" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-779-8111<br /> 
+						<b>Fax: </b><br /> 
+						 
+													<b>Website: </b> <a href="" target="_blank"></a><br />
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						26580 Breidablik Place NW (Breidablik Hall)<br />
+						Poulsbo<br />
+						98370<br />
+						<a href="http://maps.google.com/maps?q=26580+Breidablik+Place+NW+%28Breidablik+Hall%29%2CPoulsbo%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 1832<br />
+						Poulsbo<br />
+						98370-0258<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_66');">More Info</a></td>
+			<td>Turning Point Ministry UPC</td>
+						<td>Spokane</td>
+			<td>William Knudson</td>
+		</tr>
+		<tr id="church_66" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>509 326-3239<br /> 
+						 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1428 W. 9th Ave<br />
+						Spokane<br />
+						99204<br />
+						<a href="http://maps.google.com/maps?q=1428+W.+9th+Ave%2CSpokane%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						2623 W. Cleveland<br />
+						Spokane<br />
+						99205<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_52');">More Info</a></td>
+			<td>Vancouver UPC</td>
+						<td>Vancouver</td>
+			<td>Raymond J. Woodson Sr.</td>
+		</tr>
+		<tr id="church_52" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-694-6677<br /> 
+						<b>Fax: </b>360-694-6677<br /> 
+						 
+							<b>E-mail: </b> <script type="text/javascript" language="javascript">
+<!--
+{document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,118,97,110,99,111,117,118,101,114,117,112,99,64,119,97,117,112,99,46,110,101,116,34,32,62,118,97,110,99,111,117,118,101,114,117,112,99,64,119,97,117,112,99,46,110,101,116,60,47,97,62))}
+//-->
+</script>
+<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						1110 E 33rd St<br />
+						Vancouver<br />
+						98663-2472<br />
+						<a href="http://maps.google.com/maps?q=1110+E+33rd+St%2CVancouver%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						PO Box 2725<br />
+						Vancouver<br />
+						98668-2725<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr>
+			<td><a href="javascript:toggleInfo('church_7');">More Info</a></td>
+			<td>Victory Pentecostal Church</td>
+						<td>Burlington</td>
+			<td>Darcy Ross</td>
+		</tr>
+		<tr id="church_7" class="church-detail-row">
+			<td colspan="4">
+				<span class="spacer">&#160;</span>
+				<table cellpadding="0" cellspacing="0" border="0" class="church-detail" summary="Each Church">
+					<tr>
+					<td class="colored-spacer">&#160;</td>
+					<td class="contacts">
+						<b>Phone: </b>360-424-6496<br /> 
+						<b>Fax: </b>360-424-6498<br /> 
+						 
+						 
+					</td> 
+					 
+					<td class="physical">
+						<b>Physical Address: </b><br />
+						19813 Apostolic Way<br />
+						Burlington<br />
+						98233-1481<br />
+						<a href="http://maps.google.com/maps?q=19813+Apostolic+Way%2CBurlington%2CWA" target="_blank">Google Map</a>
+					</td> 
+										 
+					<td class="mailing">
+						<b>Mailing Address: </b><br />
+						P.O. Box 2557<br />
+						Mount Vernon<br />
+						98273<br />
+					</td> 
+										</tr>
+				</table>
+			</td>
+		</tr>
+				<tr><td colspan="4"><span class="spacer">&#160;</span></td></tr> 
+	</table>
+	</div>							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="frontpage_footer" cellpadding="0" cellspacing="0" summary="footer">
+	<tr>
+		<td class="footer-text">
+			<div class="copyright" id="footerCopyright">
+				<script type="text/javascript">
+					d = new Date();
+					document.write('Copyright &copy; 2000-',d.getFullYear(),' Washington District UPCI');
+				</script>
+			</div>
+		</td>
+		<td class="footer-valid"><p style="display:none;"><a href="http://www.yoome.de" target="_blank">Webmaster Forum</a></p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer/"><img src="/media/valid_css.png" alt="Valid CSS!" /></a>
+			<a href="http://validator.w3.org/check?uri=referer"><img src="/media/valid_xhtml.png" alt="Valid XHTML 1.0 Transitional" /></a>
+		</td>
+	</tr>
+</table>		<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+		<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/element/element-beta-min.js"></script>
+		<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/container/container_core-min.js"></script>
+		<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/menu/menu-min.js"></script>
+		<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/button/button-min.js"></script>
+		<script type="text/javascript" src="/js/common.js"></script>
+		<script type="text/javascript" src="/js/menubar.js"></script>
+		<script type="text/javascript">
+			var Dom=YAHOO.util.Dom, Event=YAHOO.util.Event;
+			Event.onContentReady('dMenuBar',drawMenuBar,this);
+			Event.onDOMReady( function(){
+				determineMaxWidth(['frontpage_content','frontpage_footer']);
+				if( checkDate() ) {
+					var a = Dom.get('pastorAreaNode');
+					var el = new YAHOO.util.Element('b');
+					el.innerHTML='Just Updated!';
+					a.appendChild(el);
+					el = new YAHOO.util.Element('br');
+					a.appendChild(el);
+				}
+			});
+		</script>
+				<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta2)/IE8.js" type="text/javascript"></script>
+		<![endif]-->
+		<!--[if lt IE 7]>
+		<script src="/js/menubar-ie.js" type="text/javascript"></script>
+		<![endif]-->
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script>
+		<script type="text/javascript" language="JavaScript">
+			_uacct = "UA-1732969-1"; urchinTracker();
+			img = document.getElementById('verticalSpacer');
+			if ( null != img ) { img.style.height = ( getScreenHeight() - 106 ) + 'px'; }
+		</script>
+	</body>
+</html>

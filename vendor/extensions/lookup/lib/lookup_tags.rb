@@ -61,7 +61,7 @@ module LookupTags
 
   tag 'deputations:collection:reserve_link' do |tag|
     deputation = tag.locals.deputation
-    %(<a href="/missionaries/#{deputation.id}">#{deputation.missionary.name} - #{deputation.missionary.labor}</a>)
+    %(<a href="/foreign-missions/reservations/#{deputation.id}">#{deputation.missionary.name} - #{deputation.missionary.labor}</a>)
   end
 
   # #########################
@@ -160,11 +160,24 @@ module LookupTags
     per_page = tag.attr['per_page']
     per_page ||= 20
 
-    collection = Church.paginate_by_status('active',
-      :page       => page,
-      :per_page   => per_page,
-      :order      => "#{sort} ASC"
-    )
+    section = tag.attr['section']
+    section = section.to_i
+
+    if section && section > 0
+
+      collection = Church.find_all_by_status_and_section('active',section,
+        :order      => "#{sort} ASC"
+      )
+
+    else
+
+      collection = Church.paginate_by_status('active',
+        :page       => page,
+        :per_page   => per_page,
+        :order      => "#{sort} ASC"
+      )
+
+    end
 
     tag.locals.collection = collection
 

@@ -19,6 +19,14 @@ $j(function(){
       e.text( e.text().replace('Hide','Read') );
     }
   });
+  $j('.reservation-row .more-info').corner('4px');
+  $j('.reservation-row .more-info').click(function(){
+    $j('#'+this.id+'_more').dialog({
+      modal: true,
+      width: 700,
+      title: 'Missionary Information: '+$j(this).next().text()
+    });
+  });
   $j('.church-line').click(function(){
     $j('#'+this.id+'_more').dialog({
       modal: true,

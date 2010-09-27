@@ -1,5 +1,4 @@
 class Missionary < ActiveRecord::Base
-  establish_connection "waupc_production"
 	has_many :deputations
 	validates_presence_of :name, :labor
 

@@ -1,0 +1,33 @@
+<% content_for :page_title do %>
+  <div>Washington District UPC Churches</div>
+<% end %>
+
+<table border="0" cellpadding="0" cellspacing="0" class="admin-church-listings">
+  <tr>
+    <td style="vertical-align:top">
+      <div class="church-listing">
+        <div class="church-listing-row header">
+          <div class="col1">Church Name</div>
+          <div class="col2">City</div>
+          <div class="col3">Pastor</div>
+        </div>
+        <% @churches.each do |church| %>
+        <div class="church-listing-row">
+          <div class="col1"><%= link_to church.church_name||'Unnamed', church %></div>
+          <div class="col2"><%= church.physical_city %></div>
+          <div class="col3"><%= (church.minister) ? church.minister.full_name : '' %></div>
+        </div>
+        <% end %>
+        <div class="church-listing-row footer">
+          <div class="col1"></div>
+          <div class="col2"></div>
+          <div class="col3"></div>
+        </div>
+        <div class="church-listing-row">
+          <%= will_paginate @missionaries %> 
+          <%= link_to 'New church', new_church_path %>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>

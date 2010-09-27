@@ -1,0 +1,43 @@
+<% @title = 'Foreign Missions Deputation Schedule' %>
+<div style="padding-left:1.5em">
+  <div class="reservation-one">
+    <div class="name"><%= @deputation.missionary.name -%></div>
+    <div class="labor">Missionary to <%= @deputation.missionary.labor -%></div>
+  </div>
+  <br />
+  <div class="reservation-schedule-one" id="reservation_table_<%=@deputation.id%>">
+    <table cellpadding="0" cellspacing="0" class="schedule">
+      <tr>
+        <td colspan="6" class="missionary-info">
+          <div>Schedule Information: </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="day">Day</th>
+        <th class="date">Date</th>
+        <th class="time">Time</th>
+        <th class="church">Church Name</th>
+        <th class="city">City</th>
+        <th class="pastor">Pastor's Name</th>
+      </tr>
+      <% @deputation.bookings.each do |booking| %>
+      <tr>
+        <td><%= Date::ABBR_DAYNAMES[booking.date_of.wday] -%></td>
+        <td><%= booking.date_of.strftime('%b %e, %Y') -%></td>
+        <% if booking.status == 'booked' then %>
+          <td><%= booking.time_of.strftime('%l:%M %p') -%></td>
+          <td><%= booking.church.church_name -%></td>
+          <td><%= booking.church.physical_city -%></td>
+          <td><%= booking.church.minister.full_name_with_title -%></td>
+        <% elsif booking.status == 'open' %>
+          <td colspan="4"><%= link_to "Available, click here to reserve", book_reservation_url(booking.id), { :class => "top" } %></td>
+        <% elsif booking.status == 'cancelled' %>
+          <td colspan="4">The missionary has cancelled this particular deputation</td>
+        <% end %>
+      <% end %>
+      </tr>
+    </table>
+  </div>
+</div>
+<br />
+<br />

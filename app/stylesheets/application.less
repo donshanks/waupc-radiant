@@ -1,3 +1,5 @@
+@dark_color: #441;
+@light_color: #cc9;
 body { 
   margin:0px; 
   padding:0px; 
@@ -5,7 +7,7 @@ body {
 }
 
 .section1 { 
-  background-color:#441; 
+  background-color:@dark_color; 
   border:solid 2px #fff; 
   border-top-width:4px;
   color:#fff;
@@ -15,12 +17,12 @@ body {
 }
 
 .section2 { 
-  background-color:#cc9; 
+  background-color:@light_color; 
   border:solid 2px #fff; 
   height:258px;
 
   .pics {
-    border:1px solid #441;
+    border:1px solid @dark_color;
     height:245px;
     width:816px;
     padding:0px;
@@ -49,7 +51,7 @@ body {
 }
 
 .section3 { 
-  background-color:#cc9; 
+  background-color:@light_color; 
   border:solid 2px #fff; 
   height:8px;
 }
@@ -93,8 +95,8 @@ body {
 
   h3 { 
     padding-left:4px; 
-    color:#441; 
-    background-color:#cc9; 
+    color:@dark_color; 
+    background-color:@light_color; 
     line-height:1.5; 
   }
 }
@@ -122,13 +124,13 @@ h5 {
 }
 
 .footer {
-  border-top: solid 1px #441;
+  border-top: solid 1px @dark_color;
   background: white;
   height:60px;
   padding-top:6px;
   text-transform: uppercase;
   font-size:10px;
-  color:#441;
+  color:@dark_color;
   font-weight:bold;
   width:826px;
   margin:auto;
@@ -143,8 +145,8 @@ h5 {
   h3 {
     margin-top:0px; 
     margin-bottom:3px; 
-    background:#441; 
-    color:#cc9; 
+    background:@dark_color; 
+    color:@light_color; 
     width:100%; 
     text-align:center; 
     line-height:1.5;
@@ -161,8 +163,8 @@ h5 {
   h3 {
     margin-top:0px; 
     margin-bottom:3px; 
-    background:#441; 
-    color:#cc9; 
+    background:@dark_color; 
+    color:@light_color; 
     width:100%; 
     text-align:center; 
     line-height:1.5;
@@ -179,7 +181,7 @@ h5 {
 
       span.date {
         font-weight:bold;
-        color:#441;
+        color:@dark_color;
       }
     }
   }
@@ -202,8 +204,8 @@ h5 {
   h3 {
     margin-top:0px; 
     margin-bottom:3px; 
-    background:#441; 
-    color:#cc9; 
+    background:@dark_color; 
+    color:@light_color; 
     width:100%; 
     text-align:center; 
     line-height:1.5;
@@ -227,7 +229,7 @@ h5 {
     border-left:1px solid white;
 
     :hover { 
-      color:#cc9; 
+      color:@light_color; 
     }
   }
 
@@ -253,11 +255,11 @@ h5 {
       list-style:none;
       margin:0;
       padding:3px 0 0 0;
-      background: #441;
+      background: @dark_color;
 
       a {
         border-left:none;
-        background: #441;
+        background: @dark_color;
         font-size:90%;
         width:9.9em;
         white-space: nowrap;
@@ -352,7 +354,7 @@ table {
 
 .minister-list {
   tr:hover.header {
-    background-color:#441; 
+    background-color:@dark_color; 
   }
   tr:hover {
     background-color:#cfdada; 
@@ -375,7 +377,7 @@ table {
 
 .church-list {
   tr.header:hover {
-    background-color:#441; 
+    background-color:@dark_color; 
   }
   tr:hover {
     background-color:#cfdada; 
@@ -401,13 +403,13 @@ table {
 }
 
 .header {
-  background-color:#441; 
+  background-color:@dark_color; 
   color:white; 
   font-weight:bold; 
   font-size:16px;
 
   :hover {
-    background-color:#441;
+    background-color:@dark_color;
   }
 }
 
@@ -469,5 +471,179 @@ div {
 
 .no-background { 
   background-color:transparent;
+}
+
+#section-churches {
+  caption {
+    background: url(/stylesheets/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png) white;
+    color: @dark_color;
+    font-weight: bold;
+    border-left: solid 1px #cbc7bd;
+    border-right: solid 1px #cbc7bd;
+  }
+  tr:hover {
+    background-color:#cfdada; 
+  }
+  td {
+    font-size:12px;
+  }
+}
+
+.reservation-row.first { 
+  border-top: solid 1px #ddd;
+}
+
+.reservation-row { 
+  clear:both; 
+  padding:6px; 
+  height:15px;
+  font-size:14px;
+  border-bottom: solid 1px #ddd;
+  div { 
+    float:left;
+  }
+  .more-info {
+    width:75px;
+    background-color:@dark_color;
+    color:@light_color;
+    cursor:pointer;
+    text-align:center;
+    font-weight:bold;
+    margin-top:1px;
+    margin-right:6px;
+    font-size:11px;
+  }
+  .name { 
+    width:150px;
+    vertical-align:top;
+  }
+  .labor { 
+    width:350px;
+  }
+  .dates { 
+    width:130px;
+  }
+}
+
+.reservation-one { 
+  clear:both; 
+  padding:6px 0px;
+  .name { 
+    font-size:20px; 
+    font-weight:bold;
+  }
+  .labor { 
+    font-size:14px; 
+    font-style:italic;
+  }
+}
+
+.reservation-schedule { 
+  clear:both; 
+  display:none; 
+  .schedule { 
+    width:auto; 
+    border-top:2px solid #233c6f; 
+    margin:5px 5px 0px; 
+    th { 
+      background-color:@dark_color; 
+      color:white; 
+      font-size:12px; 
+      padding:2px;
+    }
+    td { 
+      background-color:white; 
+      color:#223c6f; 
+      font-size:11px;
+      padding:2px;
+    }
+    .day {
+      width:40px; 
+    }
+    .date { 
+      width:100px; 
+    }
+    .time { 
+      width:70px; 
+    }
+    .city { 
+      width:140px; 
+    }
+    .church { 
+      width:170px; 
+    }
+    .pastor { 
+      width:160px;
+    }
+  }
+}
+
+.reservation-schedule-one { 
+  clear:both; 
+  .schedule { 
+    width:95%; 
+    th { 
+      background-color:@dark_color; 
+      color:white; 
+      font-size:14px;
+      padding:4px;
+    }
+    td{ 
+      background-color:white;
+      color:#000000; 
+      font-size:14px; 
+      padding:4px 2px;
+      border-bottom:silver 1px solid; 
+      padding:4px;
+      .missionary-info { 
+        background-color:transparent; 
+        font-size:16px; 
+        padding-bottom:8px; 
+      }
+    }
+    .day { 
+      width:40px;
+    }
+    .date { 
+      width:100px;
+    }
+    .time { 
+      width:70px;
+    }
+    .city { 
+      width:140px;
+    }
+    .church {   
+      width:170px;
+    }
+    .pastor { 
+      width:160px;
+    }
+  }
+}
+
+.reservation-update { 
+  line-height:1.8; 
+  label {
+    font-weight:bold; 
+    float:left; 
+    clear:left; 
+    width:110px; 
+    padding-right:6px; 
+    text-align:right; 
+  }
+  div {
+    input { 
+      width:318px; 
+    }
+    input.short { 
+      width:110px;
+    }
+    textarea { 
+      width:318px; 
+      height:100px; 
+      margin-top:5px; 
+    }
+  }
 }
 

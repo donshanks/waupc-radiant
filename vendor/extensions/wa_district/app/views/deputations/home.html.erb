@@ -1,0 +1,12 @@
+document.write('<div class="fm"'+'>');
+document.write('<h3'+'>Visiting Missionaries</'+'h3>');
+<% for deputation in @deputations %>
+	document.write('<div class="rowone"'+'>');
+	document.write('<%= deputation.missionary.name %> - <%= deputation.missionary.labor %>');
+	document.write('</'+'div>');
+	document.write('<div class="rowtwo"'+'><a target="_blank" href="http://fm.waupci.com/reservations/<%= deputation.id %>"'+'>');
+	document.write('<%= deputation.date_start.strftime('%B %e') %> - <%= deputation.date_end.strftime('%B %e') %>');
+	document.write('</'+'a></'+'div>');
+<% end %>
+document.write('<h5'+'><a'+' href="http://fm.waupci.com/reservations" target="_blank">See More Missionaries</'+'a></'+'h5>');
+document.write('</'+'div>');

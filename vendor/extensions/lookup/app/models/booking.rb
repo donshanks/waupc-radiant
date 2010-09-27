@@ -1,5 +1,4 @@
 class Booking < ActiveRecord::Base
-  establish_connection "waupc_production"
 	belongs_to :deputation
   belongs_to :church
 

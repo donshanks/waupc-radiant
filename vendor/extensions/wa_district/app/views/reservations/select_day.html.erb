@@ -1,0 +1,36 @@
+<% @pageTitle = 'Foreign Missions - Reserve a Missionary on Deputation' %>
+<h2 class="missionary-title">
+  <%= @deputation.missionary.name_with_title %>, 
+  <% unless @deputation.missionary.labor.match(/irector/) %>Missionary to <% end %>
+  <%= @deputation.missionary.labor %>
+</h2>
+<%
+  links = []
+  unless @deputation.missionary.website.nil_or_empty?
+    links.push link_to('website',@deputation.missionary.website)
+  end
+  unless @deputation.missionary.email.nil_or_empty?
+    links.push mail_to('email',@deputation.missionary.email)
+  end
+  unless @deputation.missionary.poster.nil_or_empty?
+    links.push link_to('poster',@deputation.missionary.poster)
+  end
+%>
+<%= links.join(' | ') %>
+
+<hr style="width:80%;margin-left:0" />
+
+<div style="padding-left:1.5em">
+  <h3>Select a Day for the Deputation Visit</h3>
+  <ul class="day-list">
+    <% @deputation.bookings_available.each do |book| -%>
+    <li><%= link_to book.select_formatted_date_of, 
+              :controller => 'reservations', 
+              :dep_id     => @deputation.id, 
+              :book_id    => book.id -%></li>
+    <% end -%>
+  </ul>
+</div>
+
+
+

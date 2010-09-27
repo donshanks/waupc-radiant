@@ -1,0 +1,68 @@
+<% content_for :page_title do %>
+  <div>UPCI Missionaries</div>
+<% end %>
+
+<% require 'uri' %>
+<div class="page-title">
+	<h2>Missionary Details</h2>
+</div>
+<div class="main-content">
+
+	<p style="color: green"><%= flash[:notice] %></p>
+
+<table class="missionaries-table edit">
+  <tr>
+	<th>First Name:</th>
+	<td><%= @missionary.firstname%></td>
+  </tr>
+  <tr>
+	<th>Last Name:</td>
+	<td><%= @missionary.lastname%></td>
+  </tr>
+  <tr>
+	<th>Labor:</td>
+	<td><%= @missionary.labor %></td>
+  </tr>
+  <tr>
+	<th>Phone:</td>
+	<td><%= @missionary.phone %></td>
+  </tr>
+  <tr>
+	<th>E-mail:</td>
+	<td><%= @missionary.email %></td>
+  </tr>
+  <tr>
+	<th>Poster:</td>
+	<td>
+		<% if ( @missionary.poster? ) %>
+		<a href="<%= @missionary.poster %>"><%= URI.unescape(@missionary.poster) %></a>
+		<% end %>
+	</td>
+  </tr>
+  <tr>
+	<th>Website:</td>
+	<td>
+		<% if @missionary.website? %>
+		<a href="<%= @missionary.website %>"><%= URI.unescape(@missionary.website) %></a>
+		<% end %>
+	</td>
+  </tr>
+  <tr>
+	<th>Date Created:</td>
+	<td><%= @missionary.created_at %></td>
+  </tr>
+</table>
+
+<h3>Deputations</h3>
+
+<ul>
+	<% for deputation in @missionary.deputations %>
+		<li><%= link_to deputation.date_range, deputation_path(deputation) %></li>
+	<% end %>
+</ul>
+
+<%= link_to 'Edit Missionary', edit_missionary_path(@missionary) %> |
+<%= link_to 'Add Deputation', :controller => 'deputations', :action => 'new', :mid => @missionary %> |
+<%= link_to 'Back To Missionary List', missionaries_path %>
+<br />
+</div>

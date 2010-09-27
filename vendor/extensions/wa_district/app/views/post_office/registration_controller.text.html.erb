@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Registration Confirmation</title>
+	</head>
+	<body>
+		<div><%= @registration.name %>, </div><br />
+		<div>
+      Your registration for <%=@event.name%> has been recieved and accepted. Your confirmation number 
+      is <%=@registration.invoice%>. Please take this email with you to the reservation desk.
+		</div><br />
+    <div><%=@registration.paid_date%></div><br />
+		<div>God Bless,</div>
+		<div>Apostolic Man Department</div>
+		<div>WaUPC Online</div>
+	</body>
+</html>
+

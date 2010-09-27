@@ -1,0 +1,55 @@
+<% @title = 'Foreign Missions - Reserve a Missionary' %>
+<% unless flash[:notice].blank? -%>
+<div style="padding-left:2.5em;padding-top:1em;color:#d00;font-weight:bold"><%= flash[:notice] %></div>
+<% end -%>
+
+<div style="padding-left:1.5em">
+  <% form_for :booking, @booking, :method => :post, :url => { :action => 'update' } do |f| %>
+  <%= f.hidden_field :id %>
+  <div class="reservation-update">
+
+    <%= label_tag "Missionary:" %>
+    <div><%= @booking.deputation.missionary.name_with_title %></div>
+
+    <%= label_tag "Labor:" %>
+    <div><%= @booking.deputation.missionary.labor %></div>
+
+    <%= label_tag "Booking Date:" %>
+    <div><%= @booking.date_of %></div>
+
+    <%= f.label :time_of, "Select a Time:" %>
+    <div><%= f.time_select :time_of, {
+                           :simple_time_select => true,
+                           :lower_limit => 60*9, 
+                           :upper_limit => 60*22, 
+                           :minute_interval => 30, 
+                           :time_separator => '' } %></div>
+
+    <%= f.label :church_id, "Your Church:" %>
+    <div><%= f.select :church_id, 
+                      @churches.collect {|p| ["#{p.church_name} (#{p.physical_city})", p.id]}.sort, 
+                      :include_blank => 'Select Church' %></div>
+
+    <%= f.label :email, "Your Email" %>
+    <div><%= f.text_field :email %></div>
+
+    <%= f.label :notes, "Special Notes" %>
+    <div><%= f.text_area :notes %></div>
+
+    <%= label_tag 'uname', "Username" %>
+    <div><%= text_field_tag 'uname', nil, { :class => 'short', :autocomplete => 'off' } %></div>
+
+    <%= label_tag 'pwd', "Password" %>
+    <div><%= password_field_tag 'pwd', nil, { :class => 'short', :autocomplete => 'off' } %></div>
+
+    <%= label_tag "&nbsp" %>
+    <div><%= submit_tag 'Send Request', :class => "short" %></div>
+
+  </div>
+
+  <% end %>
+</div>
+<br />
+
+
+

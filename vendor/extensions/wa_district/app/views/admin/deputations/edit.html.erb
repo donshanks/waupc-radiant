@@ -1,0 +1,53 @@
+<% content_for :page_title do %>
+  <div>Washington District UPC Missionary Deputations</div>
+<% end %>
+
+<% require 'uri' %>
+<div class="page-title">
+	<h2>Edit Deputation Details</h2>
+</div>
+<div class="main-content">
+
+	<p style="color: green"><%= flash[:notice] %></p>
+
+	<% form_for(@deputation) do |f| %>
+	  <%= f.error_messages %>
+
+	<table class="deputations-table edit">
+		<tr>
+			<th><%= f.label :missionary_id, 'Missionary Name' %>:</td>
+			<td><%= f.select "missionary_id", 
+				Missionary.find(:all, :order => "lastname ASC").collect {|m| [m.name,m.id]}, 
+				{:selected => @mid.to_i, :include_blank => 'Select Missionary'} %></td>
+		</tr>
+		<tr>
+			<th><%= f.label :date_start, 'Starting Date' %>:</td>
+			<td><%= f.date_select :date_start %></td>
+		</tr>
+		<tr>
+			<th><%= f.label :date_end, 'Ending Date' %>:</td>
+			<td><%= f.date_select :date_end %></td>
+		</tr>
+		<tr>
+			<th><%= f.label :method_of_travel, 'Method of Travel' %>:</td>
+			<td><%= f.text_field :method_of_travel %></td>
+		</tr>
+		<tr>
+			<th><%= f.label :accomodations, 'Accomodations' %>:</td>
+			<td><%= f.text_field :accomodations %></td>
+		</tr>
+		<tr>
+			<th><%= f.label :number_in_party, 'Number in Party' %>:</td>
+			<td><%= f.text_field :number_in_party %></td>
+		</tr>
+	</table>
+
+	<p>
+		<%= f.submit "Update" %>
+	</p>
+	<% end %>
+
+	<%= link_to 'Show', @deputation %> |
+	<%= link_to 'Back', deputations_path %>
+	<br />
+</div>

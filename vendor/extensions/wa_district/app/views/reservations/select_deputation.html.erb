@@ -1,0 +1,14 @@
+<% @pageTitle = 'Foreign Missions - Reserve a Missionary on Deputation' %>
+<h3>Select a Missionary on Deputation</h3>
+
+<% @deputations.each do |dep| %>
+  <div style="width:180px;float:left;padding:3px;margin:3px;cursor:pointer" onmouseover="this.style.backgroundColor='white'" 
+    onmouseout="this.style.backgroundColor='transparent'" onclick="location.href='/reservations/<%=dep.id%>'">
+    <b><%= dep.missionary.name %></b><br>
+    <%= dep.missionary.labor %><br>
+	  <%= dep.date_start.strftime('%b %e') %> - <%= dep.date_end.strftime('%b %e') %>
+  </div>
+<% end %>
+
+
+

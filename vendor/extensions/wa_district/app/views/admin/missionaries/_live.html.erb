@@ -1,0 +1,5 @@
+<ul class="autocomplete_list">
+	<% for missionary in @missionaries.to_a -%>
+		<li class="autocomplete_item"><%= link_to missionary.name, missionary %></li>
+	<% end -%>
+</ul>

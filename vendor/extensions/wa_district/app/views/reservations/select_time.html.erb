@@ -1,0 +1,51 @@
+<% @pageTitle = 'Foreign Missions - Reserve a Missionary on Deputation' %>
+<h2 class="missionary-title">
+  <%= @deputation.missionary.name_with_title %>, 
+  <% unless @deputation.missionary.labor.match(/irector/) %>Missionary to <% end %>
+  <%= @deputation.missionary.labor %>
+</h2>
+<%
+  links = []
+  unless @deputation.missionary.website.nil_or_empty?
+    links.push link_to('website',@deputation.missionary.website)
+  end
+  unless @deputation.missionary.email.nil_or_empty?
+    links.push mail_to('email',@deputation.missionary.email)
+  end
+  unless @deputation.missionary.poster.nil_or_empty?
+    links.push link_to('poster',@deputation.missionary.poster)
+  end
+%>
+<%= links.join(' | ') %>
+
+<hr style="width:80%;margin-left:0" />
+
+<div style="padding-left:1.5em">
+  <h3>Select a Time for the Deputation Visit</h3>
+  <dl>
+    <dt>Date: <%= @booking.select_formatted_date_of %></dt>
+    <dd>&nbsp;</dd>
+    
+    <dt>Select a Time</dt>
+    <dd><%= time_select "event", "time", {
+      :simple_time_select => true, :lower_limit => 60*9, :upper_limit => 60*22, :minute_interval => 30, :time_separator => ""
+    } %></dd>
+  </dl>
+
+  <h3>Complete your information</h3>
+  <dl>
+    <dt>Specify Your Church</dt>
+    <dd><%= select_tag "church", options_from_collection_for_select(@churches,'id','selector_name') %></dd>
+
+
+    <dt>Your E-mail Address</dt>
+    <dd><%= text_field_tag 'email', nil, :class => 'email-addr' %></dd>
+
+    <dt>Additional Information</dt>
+    <dd><%= text_area_tag 'notes', nil, :class => 'resv-notes' %></dd>
+
+  </dl>
+</div>
+
+
+

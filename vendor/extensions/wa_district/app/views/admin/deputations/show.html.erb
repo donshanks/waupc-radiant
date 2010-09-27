@@ -1,0 +1,24 @@
+<% content_for :page_title do %>
+  <div>Washington District UPC Missionary Deputations</div>
+<% end %>
+
+<div class="page-title"><h2>Deputation Details</h2></div>
+<div class="main-content">
+
+	<p style="color: green"><%= flash[:notice] %></p>
+
+	<table class="deputations-table edit">
+		<tr><th>Missionary:</th><td><%= link_to @deputation.missionary.name, missionary_path(@deputation.missionary) %></td></tr>
+		<tr><th>Start Date:</th><td><%= @deputation.date_start %></td></tr>
+		<tr><th>End Date:</th><td><%= @deputation.date_end %></td></tr>
+		<tr><th>Method of Travel:</th><td><%= @deputation.method_of_travel %></td></tr>
+		<tr><th>Accomodations:</th><td><%= @deputation.accomodations %></td></tr>
+		<tr><th>Number in Party:</th><td><%= @deputation.number_in_party %></td></tr>
+	</table>
+
+  <%= render :partial => "bookings", :locals => { :bookings => @deputation.bookings } %>
+
+	<br />
+	<%= link_to 'Edit', edit_deputation_path(@deputation) %> | <%= link_to 'Back', deputations_path %>
+	<br />
+</div>

@@ -1,0 +1,48 @@
+<% content_for :page_title do %>
+  <div>UPCI Missionaries</div>
+<% end %>
+
+<div class="main-content">
+
+	<p style="color: green"><%= flash[:notice] %></p>
+
+	<%= text_field_with_auto_complete :missionary, :contains, { :size => 20 } %>&nbsp;
+	Type in a Last Name<br />
+	<br />
+	<%= link_to 'New missionary', new_missionary_path %> |
+	<%= link_to 'Sort By Lastname', :sort => 'lastname' %> | 
+	<%= link_to 'Sort By Labor', :sort => 'labor' %> | 
+	<%= link_to 'Show Scheduled Only', :sort => 'scheduled' %> 
+
+	<br />&nbsp;
+
+	<table class="missionaries-table">
+	  <tr>
+		<th class="col2">Deputations</th>
+		<th class="col3">Name</th>
+		<th class="col4">Labor</th>
+	  </tr>
+	<% for missionary in @missionaries %>
+	  <tr>
+		<td class="col2"><%= missionary.future_deputations.length %>/<%= missionary.deputations.length %> (<%= link_to 'new', :controller => 'deputations', :action => 'new', :mid => missionary %>)</td>
+		<td class="col3"><%= link_to missionary.name, missionary %></td>
+		<td class="col4"><%= missionary.labor %></td>
+	  </tr>
+	<% end %>
+	  <tr>
+		<th class="col2"></th>
+		<th class="col3"></th>
+		<th class="col4"></th>
+	  </tr>
+	</table>
+
+	<br />
+
+	<%= link_to 'New missionary', new_missionary_path %> |
+	<%= link_to 'Sort By Lastname', :sort => 'lastname' %> | 
+	<%= link_to 'Sort By Labor', :sort => 'labor' %> | 
+	<%= link_to 'Show Scheduled Only', :sort => 'scheduled' %> 
+	<br />
+	<br />
+	<%= will_paginate @missionaries %>
+</div>
