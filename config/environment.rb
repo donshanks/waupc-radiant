@@ -18,6 +18,7 @@ Radiant::Initializer.run do |config|
   config.time_zone = 'UTC'
 
   config.gem "sanitize"
+  config.gem "newrelic_rpm"
 
   config.action_view.field_error_proc = Proc.new do |html, instance|
     if html !~ /label/
