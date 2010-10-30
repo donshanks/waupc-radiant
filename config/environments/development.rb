@@ -1,4 +1,7 @@
 # Settings specified here will take precedence over those in config/environment.rb
+cronolog_io = IO.popen( '/usr/bin/cronolog /web/logs/waupc-radiant/rails-dev.%Y%m%d','w' )
+config.logger = Logger.new(cronolog_io)
+config.logger.level = Logger::INFO
 
 # In the development environment your application's code is reloaded on
 # every request.  This slows down response time but is perfect for development
