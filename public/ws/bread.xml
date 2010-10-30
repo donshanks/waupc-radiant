@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="B.R.E.A.D" render_inline="optional" directory_title="B.R.E.A.D. - Daily Bible Reading"
+        description="B.R.E.A.D. - Daily bible reading program, available for adults and youth, in English and Spanish"
+        author="Don Shanks" author_location="Washington State" author_affiliation="Washington District UPCI"
+        author_email="waupc.webdev+breadgadget@gmail.com" screenshot="http://www.waupci.com/images/bread-gadget.png"
+        thumbnail="http://www.waupci.com/images/bread-gadget-thumb.png"
+    />
+    <UserPref name="a" display_name="Age Level" datatype="enum" default_value="adult" urlparam="a">
+        <EnumValue value="adult" display_value="Adult" />
+        <EnumValue value="youth" display_value="Youth" />
+    </UserPref>
+    <UserPref name="l" display_name="Language" datatype="enum" default_value="en" urlparam="l">
+        <EnumValue value="en" display_value="English" />
+        <EnumValue value="es" display_value="Spanish" />
+    </UserPref>
+    <Content type="url" href="http://www.waupci.com/bread">
+      <![CDATA[
+        <!-- ALm6fM3WfdWgw9Tf-5oYvfOq2efi92pUDR0P6jC09LRtzOevNpBAJoXfIlT1nOdY0YlkW5bt7gKcME-hFjS39Smrcp3ilOh5bneKOQb1iCcA4_-GsvMmgzjUClt6W7lntSrGl6nTmBGG -->
+      ]]>
+    </Content>
+</Module>
