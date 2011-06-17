@@ -6,7 +6,7 @@ class ReservationsController < ApplicationController
   
   def index
     @deputations = Deputation.find(:all, 
-      :conditions => 'date_end >= CURRENT_DATE',
+      :conditions => %(date_end >= CURRENT_DATE and status = 'active'),
       :order      => 'date_start ASC',
       :limit      => params[:l] || 20
     )

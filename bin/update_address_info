@@ -1,0 +1,55 @@
+#!/usr/bin/ruby
+
+basepath = File.expand_path( File.join(File.dirname(__FILE__), '..') )
+updates = File.join( File.dirname(__FILE__), 'ministers_export.txt')
+
+csv_options = { 
+  :col_sep => "\t",
+  :headers => %w( id status lastname firstname address city state zip title phone_home phone_mobile phone_fax email notes)
+}
+
+require 'pp'
+require 'rubygems'
+require 'yaml'
+require 'active_record'
+require 'csv'
+
+dbconfig = YAML.load_file( File.join( basepath, 'config', 'database.yml' ) )
+
+#ActiveRecord::Base.logger = Logger.new(STDERR)
+ActiveRecord::Base.colorize_logging = false
+
+ActiveRecord::Base.establish_connection( dbconfig['production'] )
+
+class Minister < ActiveRecord::Base
+end
+
+updated_rows = CSV.read( File.join( File.dirname(__FILE__), 'ministers_export.txt'), csv_options )
+
+updated_rows.each do |r|
+  if r['id']
+    minister = Minister.find( r['id'] )
+    r.each do |key,val|
+      unless val.to_s == minister[key].to_s
+        puts '-------------------------------'
+        puts 'Modifying:'
+        puts "#{key}: #{val}"
+        minister[key] = val
+        minister.save
+        puts '-------------------------------'
+      end
+    end
+  else
+    unless Minister.find_by_lastname_and_firstname( r['lastname'], r['firstname'] )
+      puts '-------------------------------'
+      puts 'Adding:'
+      puts "#{r['firstname']} #{r['lastname']}"
+      r.delete('id')
+      r['status'] = 'active'
+      Minister.create(r.to_hash)
+      puts '-------------------------------'
+    end
+  end
+end
+
+

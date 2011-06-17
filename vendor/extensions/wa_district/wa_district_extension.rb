@@ -20,6 +20,7 @@ class WaDistrictExtension < Radiant::Extension
       fm.book_reservation   'reservations/book/:book_id', :action => 'book' 
       fm.update_reservation 'reservation/update',         :action => 'update'
     end
+    map.connect '/ipn/:prod_id', :controller => 'ipn', :action => 'log'
   end
 
   def activate

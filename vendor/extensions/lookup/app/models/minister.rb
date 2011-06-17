@@ -1,5 +1,4 @@
 class Minister < ActiveRecord::Base
-  establish_connection "waupc_production"
 
   def bio
     MinisterBio.find(:first, :conditions => ['id = ?',bio_id])

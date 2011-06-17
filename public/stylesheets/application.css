@@ -334,7 +334,7 @@ div .people .read-more {
 }
 .reservation-row div { float: left; }
 .reservation-row .more-info {
-  width: 75px;
+  width: 85px;
   background-color: #444411;
   color: #cccc99;
   cursor: pointer;

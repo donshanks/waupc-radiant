@@ -26,11 +26,11 @@
   <tr>
     <td>
       <%= @church.physical_address %><br />
-      <%= @church.physical_city %><%= !@church.physical_city.nil_or_empty? ? ', WA ' : '' %><%= @church.physical_zip%><br />
+      <%= @church.physical_city %><%= !@church.physical_city.blank? ? ', WA ' : '' %><%= @church.physical_zip%><br />
     </td>
     <td>
       <%= @church.mailing_address %><br />
-      <%= @church.mailing_city %><%= !@church.mailing_city.nil_or_empty? ? ', WA ' : '' %><%= @church.mailing_zip%><br />
+      <%= @church.mailing_city %><%= !@church.mailing_city.blank? ? ', WA ' : '' %><%= @church.mailing_zip%><br />
     </td>
   </tr>
 </table>

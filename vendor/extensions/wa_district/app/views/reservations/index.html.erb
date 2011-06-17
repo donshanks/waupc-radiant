@@ -4,7 +4,7 @@
   <% @deputations.each_with_index do |deputation,idx| %>
     <% topline = (idx == 0) ? ' first' : '' %>
     <div class="reservation-row<%=topline%>">
-      <div class="more-info" id="reservation_table_<%=deputation.id%>">More Info</div>
+      <div class="more-info" id="reservation_table_<%=deputation.id%>">Reserve Here</div>
       <div class="name"><%= deputation.missionary.name -%></div>
       <div class="labor">Missionary to <%= deputation.missionary.labor -%></div>
       <div class="dates"><%= deputation.date_range -%></div>

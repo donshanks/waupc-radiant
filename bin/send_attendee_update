@@ -1,0 +1,69 @@
+#!/usr/bin/ruby
+
+require 'pp'
+require 'rubygems'
+require 'httparty'
+require 'active_record'
+require 'active_support'
+
+basepath = File.expand_path( File.join(File.dirname(__FILE__), '..') )
+dbconfig = YAML.load_file( File.join( basepath, 'config', 'database.yml' ) )
+
+#ActiveRecord::Base.logger = Logger.new(STDERR)
+ActiveRecord::Base.colorize_logging = false
+
+ActiveRecord::Base.establish_connection( dbconfig['production'] )
+
+class EventAttendee < ActiveRecord::Base
+end
+
+class EventBrite
+  include HTTParty
+  base_uri 'https://www.eventbrite.com/xml'
+
+  def initialize
+    @auth = { 
+      :user => 'register@waupc.net', 
+      :password => 'Romans1212'
+    }
+    @query = {
+      :app_key => 'Njk1ZTg1ZmNjYjZh',
+      :user_key => '12898727838552744489'
+    }
+  end
+
+  def events
+    { 
+      :wayc_2011 => '1235279755' 
+    }
+  end
+
+  def pull(event)
+    options = { :query => @query.merge!({ :id => events[event] }) }
+    self.class.get('/event_list_attendees',options)
+  end
+
+end
+
+event_brite = EventBrite.new
+
+attendees = event_brite.pull(:wayc_2011).parsed_response['attendees']['attendee']
+
+attendees.each do |attendee|
+
+  keys = attendee.keys
+
+  keys.each do |key|
+    attendee[ key.titleize ] = attendee.delete(key) 
+  end
+
+  answers = attendee.delete('Answers')
+
+  answers['answer'].each do |extra|
+    attendee[extra['question']] = extra['answer_text']
+  end
+
+end
+
+pp attendees
+

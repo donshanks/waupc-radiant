@@ -6,13 +6,13 @@
 </h2>
 <%
   links = []
-  unless @deputation.missionary.website.nil_or_empty?
+  unless @deputation.missionary.website.blank?
     links.push link_to('website',@deputation.missionary.website)
   end
-  unless @deputation.missionary.email.nil_or_empty?
+  unless @deputation.missionary.email.blank?
     links.push mail_to('email',@deputation.missionary.email)
   end
-  unless @deputation.missionary.poster.nil_or_empty?
+  unless @deputation.missionary.poster.blank?
     links.push link_to('poster',@deputation.missionary.poster)
   end
 %>

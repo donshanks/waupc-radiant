@@ -1,0 +1,57 @@
+125	active	Batson	Lloyd	18 Cosmic Lane	Richland	WA	99352	Rev.	509 308-0050	509 713-0725		lloyd-batson@yahoo.com	
+110	active	Bogle	Kevin D.	"4120 Fir St. SW, Unit B"	McChord AFB	WA	98439	Rev.	253 503-7639	 253 961-4630		kevin.bogle@mcchord.af.mil 	
+127	active	Boles	Paul M.	1928 Diamond Loop SE	Lacey	WA	98503	Rev.	253 353-4222	253 655-7040		upcsound@gmail.com	
+11	active	Boyd	Nathaniel J.	2215 Muirhead Ave NW	Olympia	WA	98502	Rev.		360 888-0460		pastor@abundantlifeac.com	Sunday School Director
+13	active	Cacho	Marvin	16322 Wallingford Ave N	Shoreline	WA	98133	Rev.	206 542-6003			RevCacho1@msn.com	
+14	active	Calderon	Victor	5303 Village Park Dr SE # 1523	Bellevue	WA	98006	Rev.		206 227-1454		Vcalderon@comcast.net	
+128	active	Carpenter	Nicholas	9023 West Lane	Stockton	WA	95210	Rev.		509 540-2746		nicholasgcarpenter@gmail.com	
+15	active	Clemetson	Wayne	201809 East Terril Rd	Kennewick	WA	99337	Rev.	509 582-8895	509 528-8192		wsclem@hotmail.com	Sec 3 Sunday School
+129	active	Coronado	Jonathan	2101 St. Hilaire Rd	Moxee	WA	98936	Rev.		509 910-7698		jonncoronado@aol.com	
+18	active	Crossley	Tiny	11610 E 12th Ave	Spokane Valley	WA	99206	Rev.	509 474-1835	509 979-4086			Honorary Minister
+20	active	Da Pron	David	P.O. Box 308	DuPont	WA	98327	Rev.	253 912-0351	253 312-2281	360 412-7994	dapronfamily@aol.com	
+22	inactive	Dauenhauer	Darell	17214 Interurban Blvd.	Snohomish	WA	98290	Rev.	360 668-1718	425 293-2653		Darell_27@msn.com	
+111	active	Dillon	Mark	P O Box 670	Oak Harbor	WA	98277	Rev.		404.661.4653		mdillon@oakharborupc.com	
+130	active	Doescher	Chad	12121 Woodinville Drive #J-201	Bothell	WA	98011	Rev.	206 805-9981	206 805-9981		revcd@hotmail.com	
+		Garcia	Elijah	3120-05th St. NW	Puyallup	WA	98371	Rev.		503 722-1488		eligarcia@gmail.com	
+119	active	Giadrosich	Robert	c/o PO Box 670	Oak Harbor	WA	98277	Rev. 		404 434-8101		bobgiadrosich@yahoo.com	Attending Oak Harbor UPC
+39	active	Hiner	Loren	PO Box 268	Montesano	WA	98563	Rev.	360 249-0505		509 674-4720	HinerLJ@yahoo.com	Sec 5 Secretary
+40	active	Hizon	Jun B.	PO Box 18231 	Seatac	WA	98188	Rev.	425 445-0333	425 445-1003			
+117	active	Jacobsen Jr.	Donald	216 North French St	Arlington	WA	98223	Rev.	425 608-2667			dvjacobsen@comcast.com	
+109	active	Johnstone	Nicholas	3234 Highlands Blvd.	Puyallup	WA	98372	"Rev,"	253 205-7654	253 205-7654		nick@southsound.org	
+47	active	Joseph	Ronald C.	P.O. Box 299	Walla Walla	WA	99362	Rev.	509-526-3108			rcjoseph@q.com	Honorary Minister
+48	active	Kern	Harold	12609 Issaquah-Hobart Rd. S	Issaquah	WA	98027	Rev.	425 392-6842	206 679-5789	425 392-6953	Kern810@msn.com	
+120	active	King	Timothy A.	1610 N Anne Ave	E. Wenatchee	WA	98802	Rev.	509 433-8900			R7kings@yahoo.com	
+52	active	Knowles	Grant	2611 S. Kent	Kennewick	WA	99337	Rev.	509 582-6626	509 430-1559	509 582-6626	gwknowles54@frontier.com	Section Three Presbyter
+53	inactive	Knudson	Ryan D.	P.O. Box 433	Colbert	WA	99005-0433	Rev.	509 922-0853	509 954-6919	509 922-0853	ryank@windermere.com	
+55	active	LaCrosse	Frank	17618 18th Ave CT. E	Spanaway	WA	98387	Rev.	253 846-0842			FJLacrosse@comcast.net	
+		Lacsamana	Mike	2911 Cedar Ave S	Renton	WA	98055	Rev.	 	206 949-4258		lacsamana0509@gmail.com	
+60	active	Mayo	Richard	23919 E Strong Ave.	Newman Lake	WA	99025	Rev.	509 226-3095	509 499-7818		rickmayo@gmail.com	
+61	active	Mc Garrity	Mark	16115 10th Ave NW	Arlington	WA	98223	Rev.	360-652-2152	425 232-9270		marvobro@aol.com	
+		Monterrosa	Abraham	918 - 128th St Ct E	Tacoma	Wa	98455	Rev.	253 678-7427			abemonterrosa@yahoo.com	
+		Nunez	Anastacio	9900 12th Ave W. Apt H105	Everett	WA	98204	Rev.	425 645-0260			anastacionunez@rocketmail.com	
+69	active	Painter	Jeremy	7629 Oak Park Drive	Bremerton	WA	98311	Rev.	360 692-0737	360 689-3987		jerpaint@comcast.net	
+70	active	Painter	Terry	1940 Sylvan Way	Bremerton	WA	98366	Rev.	360 874-0557	360 710-7851		tpainter@wavecable.com	Youth President
+72	active	Peters	Jack	14102 120th Avenue Ct. E	Puyallup	WA	98374	Rev.	253 840-1823	253 219-0907		jlpeters1@juno.com	
+		Plante	Wade	5503  236th ST SW	Mountlake Terrace	WA	98043	Rev.	425 835-0027	 	206 919-5752	wplante@iamforgiven.com	
+74	active	Ramirez	Andres	3321 W. Agate St	Pasco	WA	99301	Rev.	509 845-0175			phsrepublicans@yahoo.com	
+75	active	Ranniger	Noah	11424 36th Dr NE Space 92	Marysville	WA	98206	Rev.	360 547-9998			noahranniger@gmail.com	
+79	active	Roberts	Nathan P.	PO Box 74	Issaquah	WA	98027	Rev.	425-369-0780	206 330-8139		nater@electromatichvacr.com	
+134	active	Ruiz	Jacob	12106 47th Dr NE	Marysville	WA	98271	Rev.	425 749-8441			jacobnruiz@gmail.com	
+84	active	Salazar Jr.	Vicente	11611 NE 8th St	Vancouver	WA	98684	Rev.	360 883-2694			salazarvj@aol.com	Sec 4 Home Missions
+135	active	Sanchez	Luis	P.O. Box 3001	Pasco	WA	99302	Rev.	509 545-0242	509 727-5112		saved2serveministries@hotmail.com	
+136	active	Saylor	Stephen	33 Alfredson Rd	Oakville	WA	98568	Rev.	260 249-9516	260 249-9516		steve@saylortribe.com	
+85	active	Scheftic	Michael	369 Tahuyeh Drive W	Bremerton	WA	98312	Rev.	360 373-7684	360 551-2161		OneGodPastor@yahoo.com	Sunday School Secretary
+87	active	Schoonover	Larry	10909 141st Street Ct. E	Puyallup	WA	98374-3332	Rev.	253 840-8139	253 226-0874	206 339-2461	larry@southsound.org	Sec 4 Ladies Director
+91	active	Seagraves	Leah	P.O. Box 66442	SeaTac	Wa	98166	Sis.	206 244-5111	206 992-8149		leahseagraves@aol.com	
+88	active	Seagraves	Paul C.	"14,000 Boros Road"	Elberta	AL	36530	Rev.		360-261-2551		SeagravesPaul@aol.com	Honorary Minister
+89	active	Seagraves	Ronald	315 Peardale Lane	Longview	WA	98632-3235	Rev.	360 423-7340	360 957-5322		ronseagraves@waupc.net	Section Four Home Missions Director
+90	active	Seagraves	Steven	P.O. Box 66442	SeaTac	WA	98166	Rev.	206 244-5111	NA		sgravdigr@aol.com	Media Missions Director
+93	active	Smith	Ronald	208 Garfield Street	Hoquiam	WA	98550	Rev.	360 533-5994	360 500-0605	360 533-5053	Ronjoysmith@msn.com	
+113	active	Smith Jr.	Merle W.	1519 S 16th St	Yakima	WA	98901	Rev.	509-823-0911			merlesmith52@yahoo.com	
+95	active	Sumpter	Dave	220 Newport Way SW Apt 206	Issaquah	WA	98027	Rev.	425 427-8921	206 423-2336		Davsumpter@hotmail.com	
+99	active	Tingley	David	16815 126th Ave. NE	Woodenville	WA	98072	Rev.		425 417-4793		DSLTingley@yahoo.com	Sec 1 Home Missions
+101	active	"Webb, Jr."	Charles E.	6713 66th Drive NE	Marysville	WA	98270	Rev.	360 659-5162	425-327-1823		cdjnwebb@comcast.net	
+102	active	Weber	Todd K.	18015 27th Dr SE	Bothell	WA	98021	Rev.	425 489-2096	206 890-7184		tweber@newlifefellowship.com	Sec 1 Secretary
+103	inactive	White III	Luther	14734 NE 39th St  #2008	Bellevue	WA	98008	Rev.	425-643-0708	206 851-9081		good2go711@comcast.net	
+		Wilson	Royce	204  203rd ST SE	Bothell	WA	98012		425 419-4523			rwilson@newlifefellowship.com	
+105	active	Woods	Jeffrey	3104 S. Everett Pl	Kennewick	WA	99337	Rev.	509-585-8422			thewoodsonfire@hotmail.com	Sec 3 Youth Leader

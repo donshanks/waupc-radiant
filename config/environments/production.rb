@@ -2,9 +2,9 @@
 
 config.cache_classes = true
 
-cronolog_io = IO.popen( '/usr/bin/cronolog /web/logs/waupc-radiant/rails.%Y%m%d','w' )
-config.logger = Logger.new(cronolog_io)
-config.logger.level = Logger::WARN
+#cronolog_io = IO.popen( '/usr/bin/cronolog /web/logs/waupc-radiant/rails.%Y%m%d','w' )
+#config.logger = Logger.new(cronolog_io)
+#config.logger.level = Logger::WARN
 
 # Full error reports are disabled and caching is on
 config.action_controller.consider_all_requests_local = false
