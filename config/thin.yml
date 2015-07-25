@@ -1,10 +1,10 @@
 ---
 user: www-data
 group: www-data
-chdir: /web/sites/waupc/waupc-radiant
-log: /web/logs/waupc-radiant/thin.log
-port: 3100
+chdir: /web/sites/waupc/waupc-radiant-new
+log: log/thin.log
+port: 3300
 pid: tmp/pids/waupc-radiant.pid
 environment: production
-servers: 3
+servers: 1
 

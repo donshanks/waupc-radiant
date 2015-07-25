@@ -1,0 +1,50 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (4.2.3)
+    actionmailer (2.3.5)
+      actionpack (= 2.3.5)
+    actionpack (2.3.5)
+      activesupport (= 2.3.5)
+      rack (~> 1.0.0)
+    activerecord (2.3.5)
+      activesupport (= 2.3.5)
+    activeresource (2.3.5)
+      activesupport (= 2.3.5)
+    activesupport (2.3.5)
+    daemons (1.1.0)
+    eventmachine (0.12.10)
+    mysql (2.8.1)
+    newrelic_rpm (2.13.1)
+    nokogiri (1.4.2)
+    rack (1.0.1)
+    radiant (0.8.1)
+      RedCloth (>= 4.0.0)
+      rack (>= 1.0.0)
+      rake (>= 0.8.3)
+    rails (2.3.5)
+      actionmailer (= 2.3.5)
+      actionpack (= 2.3.5)
+      activerecord (= 2.3.5)
+      activeresource (= 2.3.5)
+      activesupport (= 2.3.5)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    sanitize (1.2.1)
+      nokogiri (~> 1.4.1)
+    thin (1.2.7)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mysql
+  newrelic_rpm
+  rack (= 1.0.1)
+  radiant (= 0.8.1)
+  rails (= 2.3.5)
+  sanitize
+  thin

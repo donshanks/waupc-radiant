@@ -46,6 +46,11 @@ var handleError = function(error) {
 // object is passed in place of the feed URI
 $j(function(){
 
+  $j('#slider').nivoSlider({
+    pauseTime: 7000,
+    effect: 'sliceUpRight'
+  });
+
   if( $j('.events-sidebar').length ) {
 
     // Create the calendar service object

@@ -65,10 +65,18 @@ module Radiant
       begin
         require 'radiant'
         require 'radiant/initializer'
+        require 'bundler'
       rescue LoadError => e
         $stderr.puts %(Radiant could not be initialized. #{load_error_message})
         exit 1
       end
+      
+      Radiant::Initializer.class_eval do
+        def load_gems
+          @bundler_loaded ||= Bundler.require :default, Rails.env
+        end
+      end
+
       Radiant::Initializer.run(:set_load_path)
     end
   end

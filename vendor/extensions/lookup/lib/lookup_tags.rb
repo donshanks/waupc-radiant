@@ -238,6 +238,15 @@ module LookupTags
     link
   end
 
+  tag 'churches:each:languages_spoken' do |tag|
+    church = tag.locals.church
+    link = ''
+    unless church.languages.blank?
+      link = %Q{<b>Languages Spoken:</b><br />#{church.languages}<br /><br />}
+    end
+    link
+  end
+
   tag 'churches:each:physical_addr' do |tag|
     church = tag.locals.church
     addr = ''

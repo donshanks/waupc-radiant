@@ -37,3 +37,9 @@
 [submodule "vendor/plugins/more"]
 	path = vendor/plugins/more
 	url = git://github.com/cloudhead/more.git
+[submodule "vendor/extensions/blog"]
+	path = vendor/extensions/blog
+	url = git://github.com/saturnflyer/radiant-blog-extension.git
+[submodule "vendor/extensions/twitter_tags"]
+	path = vendor/extensions/twitter_tags
+	url = git://github.com/wonko/twitter_tags.git

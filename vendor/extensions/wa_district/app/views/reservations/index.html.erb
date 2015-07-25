@@ -6,6 +6,15 @@
     <div class="reservation-row<%=topline%>">
       <div class="more-info" id="reservation_table_<%=deputation.id%>">Reserve Here</div>
       <div class="name"><%= deputation.missionary.name -%></div>
+      <div class="web">
+        <div class="website-link">
+        <% if deputation.missionary.website.blank? -%>
+          &nbsp;
+        <% else -%>
+          <%= link_to( image_tag('missionary-website.gif', {:size => '70x22'}), deputation.missionary.website, :target => '_blank' ) -%>
+        <% end -%>
+        </div>
+      </div>
       <div class="labor">Missionary to <%= deputation.missionary.labor -%></div>
       <div class="dates"><%= deputation.date_range -%></div>
     </div>

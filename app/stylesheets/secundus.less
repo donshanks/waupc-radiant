@@ -1,0 +1,790 @@
+// --------------------------------------------------
+// css parameters
+// --------------------------------------------------
+
+@dark_color: #441;
+@light_color: #cc9;
+
+// --------------------------------------------------
+// main style
+// --------------------------------------------------
+
+body { 
+  margin:0px; 
+  padding:0px; 
+  font-family:arial,helvetica,sans-serif;
+}
+#home {
+  #mainWrapper {
+    background: url(/images/bg-secundus-home.png) repeat-x top left transparent;
+  }
+}
+#mainWrapper {
+  background: url(/images/washington-district-bg5.png) top left repeat-x transparent;
+  #wrapper {
+    width:960px;
+    margin:0 auto;
+  }
+}
+.content-section {
+  #slider {
+    margin:5px;
+    padding:5px;
+  }
+}
+.content-block {
+  float:left;
+  width: 310px;
+  border: solid 1px orange;
+  margin-right: 6px;
+  &.first {
+    margin-left: 5px;
+  }
+}
+.section2 { 
+  background-color:@light_color; 
+  border:solid 2px #fff; 
+  height:258px;
+
+  .pics {
+    border:1px solid @dark_color;
+    height:245px;
+    width:816px;
+    padding:0px;
+    margin:5px auto;
+
+    img {
+      background-color:transparent; 
+      top:0px; 
+      left:0px;
+    }
+  }
+
+  .scripture {
+    color:#eef;
+    font-size:16pt;
+    z-index:1000;
+    position:relative;
+    top:-84px;
+    left:39%;
+    width:530px;
+    font-weight:bold;
+    font-size:16pt;
+    text-shadow:black 0.1em 0.1em 0.2em;
+    filter: Shadow(Color=#000000, Direction=135);
+  }
+}
+
+.section3 { 
+  background-color:@light_color; 
+  border:solid 2px #fff; 
+  height:8px;
+}
+
+// --------------------------------------------------
+// header style
+// --------------------------------------------------
+
+.menu-section { 
+  background-color:@dark_color; 
+  border-bottom:solid 2px #fff; 
+  border-top:solid 4px #fff; 
+  color:#fff;
+  padding-top:.5em;
+  padding-bottom:.3em;
+  height:20px;
+}
+.title-section {
+  font-size:28px;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-align:center;
+  height:92px;
+  margin:0px;
+  background:url(/images/washington-district-bg3.gif) top left repeat-x transparent;
+}
+.topMenuHolder {
+  width:950px; 
+  margin:auto;
+}
+
+// --------------------------------------------------
+// nivo slider customization
+// --------------------------------------------------
+
+.nivoSlider {
+  position:relative;
+  width:950px;
+  height:323px;
+  background:url(images/loading.gif) no-repeat 50% 50%;
+  img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+  }
+  a {
+    border:0;
+    display:block;
+  }
+}
+.nivoNav {
+  width: 47px;
+  height: 47px;
+  display: block;
+  text-indent: -9999px;
+}
+.nivo-nextNav {
+  .nivoNav;
+  background: url(/images/but_next.png) 0 0 no-repeat;
+}
+.nivo-prevNav {
+  .nivoNav;
+  left: -10px;
+  background: url(/images/but_prev.png) 0 0 no-repeat;
+}
+.nivo-controlNav {
+  padding-top:25px;
+  text-align:center;
+  overflow:hidden;
+  margin-left:25px;
+  a {
+    position:relative;
+    z-index:99;
+    cursor:pointer;
+    display:block;
+    float:left;
+    background:url(/images/slider_controlnav.png) -20px 0 no-repeat;
+    text-indent:-9999px;
+    width:20px;
+    height:20px;
+    &.active {
+      font-weight:bold;
+      background:url(/images/slider_controlnav.png) 0 0 no-repeat;
+    }
+  }
+}
+.main-home {
+  background: url(/images/home-bg.gif) repeat-y top left transparent;
+  min-height:200px; 
+  margin:auto; 
+  width:826px;
+
+  h1 {
+    margin:0px;
+  }
+}
+
+.alt-home {
+  min-height:200px; 
+  margin:auto; 
+  width:826px;
+}
+
+.alt-left {
+  float:left; 
+  width:826px;
+}
+
+h4 { 
+  margin-bottom:0px; 
+  margin-top:0px; 
+}
+
+h5 { 
+  margin-bottom:0px; 
+  margin-top:0px; 
+  font-size:15px;
+}
+
+
+// --------------------------------------------------
+// footer style
+// --------------------------------------------------
+
+.footer-wrapper {
+  background: url(/images/bg-secundus-footer.png) top left repeat-x @dark_color;
+  padding-top: 1em;
+}
+.footer-content {
+  width: 960px;
+  margin: 0 auto;
+}
+.footer-section {
+  float: left;
+  width: 230px;
+  padding:3px;
+  min-height: 100px;
+  margin-right: 2px;
+  h2 {
+    font-size:22px;
+    color: #fff;
+    font-family: georgia,chicago,serif;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  &.first {
+    margin-left: 4px;
+  }
+  &.last {
+    margin-right: 0;
+  }
+}
+.footer-right {
+  float:right;
+}
+.copyright {
+  clear: both;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 1em 0;
+  color: #eeeeee;
+  a {
+    color: #d0d0d0;
+    &:hover {
+      text-decoration:none;
+      color: #ff8c00;
+    }
+  }
+}
+.mailchimp {
+  .indicates-required {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .mce-responses {
+    font-size: 12px;
+  }
+  .rewards {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  label {
+    font-size: 12px;
+    color: #ffffff;
+    display: block;
+  }
+  a {
+    color: #d0d0d0;
+    &:hover {
+      text-decoration:none;
+      color: #ff8c00;
+    }
+  }
+}
+
+
+
+
+
+
+
+.officials-table {
+
+  h3 {
+    margin-top:0px; 
+    margin-bottom:3px; 
+    background:@dark_color; 
+    color:@light_color; 
+    width:100%; 
+    text-align:center; 
+    line-height:1.5;
+  }
+
+}
+
+.events-sidebar {
+  float:left; 
+  width:240px; 
+  margin-bottom:10px; 
+  clear:left;
+
+  h3 {
+    margin-top:0px; 
+    margin-bottom:3px; 
+    background:@dark_color; 
+    color:@light_color; 
+    width:100%; 
+    text-align:center; 
+    line-height:1.5;
+  }
+
+  ul {
+    margin-top:0px; 
+    padding:0;
+
+    li {
+      list-style-type:none;
+      font-size:10pt;
+      margin-bottom:5px;
+
+      span.date {
+        font-weight:bold;
+        color:@dark_color;
+      }
+    }
+  }
+
+}
+
+.missions-sidebar {
+  float:left; 
+  width:240px; 
+  margin-bottom:1em;
+
+  .deputation {
+    font-size:10pt;
+
+    .dates {
+      font-weight:bold;
+    }
+  }
+
+  h3 {
+    margin-top:0px; 
+    margin-bottom:3px; 
+    background:@dark_color; 
+    color:@light_color; 
+    width:100%; 
+    text-align:center; 
+    line-height:1.5;
+  }
+}
+
+.topmenu {
+  padding:0;
+  margin:0;
+  list-style:none;
+  line-height:1;
+
+  a {
+    display:block;
+    font-weight:bold; 
+    color:#fff; 
+    padding-left:.5em; 
+    padding-right:.5em;
+    text-decoration:none;
+    text-transform:uppercase;
+    border-left:1px solid white;
+
+    :hover { 
+      color:@light_color; 
+    }
+  }
+
+  li {
+    float:left;
+
+    :hover {
+      ul { 
+        left:auto;
+
+        ul { 
+          left:-999em; 
+        }
+      }
+    }
+
+    ul {
+      position:absolute;
+      width:7em;
+      left:-999em;
+      z-index:1001;
+      line-height:1.6;
+      list-style:none;
+      margin:0;
+      padding:3px 0 0 0;
+      background: @dark_color;
+
+      a {
+        border-left:none;
+        background: @dark_color;
+        font-size:90%;
+        width:9.9em;
+        white-space: nowrap;
+      }
+
+      ul {
+        margin: -1.4em 0 0 7em;
+        padding-top:0px;
+        width:10em;
+
+        a { 
+          width:9.9em; 
+        }
+      }
+    }
+
+    li {
+      :hover {
+        ul {
+          left: auto;
+        }
+      }
+    }
+  }
+
+  li.first {
+    a { 
+      border-left:none; 
+    }
+  }
+
+  li.last {
+    ul {
+      li {
+        a { 
+          width:6.9em; 
+        }
+      }
+    }
+  }
+
+  li.sections {
+    ul {
+      li {
+        a {
+          width:7.9em;
+        }
+      }
+    }
+  }
+}
+
+.para { 
+  text-indent:2em; 
+  margin-bottom:1em;
+}
+
+.para-hilite { 
+  font-style:italic; 
+  color:brown; 
+}
+
+table {
+  width: 100%;
+  vertical-align: top;
+
+  .thirds {
+    td {
+      width: 33%;
+    }
+  }
+
+  .halfs {
+    td {
+      width: 50%;
+    }
+  }
+
+  td { 
+    vertical-align:top; 
+    font-size:14px; 
+  }
+}
+
+#default {
+  .table-row {
+    margin:0px; 
+    padding:0px; 
+    font-size:14px; 
+  }
+}
+
+.minister-list {
+  tr:hover.header {
+    background-color:@dark_color; 
+  }
+  tr:hover {
+    background-color:#cfdada; 
+  }
+}
+
+.minister-line {
+  #default > .table-row;
+
+  td { 
+    width:100px; 
+    padding:2px; 
+  }
+
+  .email { 
+    width:300px; 
+  }
+}
+
+
+.church-list {
+  tr.header:hover {
+    background-color:@dark_color; 
+  }
+  tr:hover {
+    background-color:#cfdada; 
+  }
+}
+
+.church-line {
+  #default > .table-row;
+  cursor: pointer;
+
+  td { 
+    width:250px; 
+    padding:2px; 
+  }
+
+  .cities { 
+    width:306px; 
+  }
+  
+  .empty { 
+    width:1px; 
+  }
+}
+
+.header {
+  background-color:@dark_color; 
+  color:white; 
+  font-weight:bold; 
+  font-size:16px;
+
+  :hover {
+    background-color:@dark_color;
+  }
+}
+
+.odd {
+  background-color:#dadacf;
+}
+  
+.pagination { 
+  text-align:center; 
+  font-size:14px; 
+}
+
+
+div {
+  .notice { 
+    text-align:center; 
+    font-size:10px; 
+    margin-bottom:6px;
+  }
+
+  .people {
+    h2 { 
+      margin:0px; 
+    }
+
+    h3 { 
+      margin:0px; 
+      padding-left:4px; 
+      color:#000; 
+      background-color:transparent; 
+    } 
+
+    .para {
+      font-size:14px; 
+      text-indent:0px; 
+      clear:left; 
+    }
+
+    .read-more { 
+      cursor:pointer; 
+      text-decoration: underline; 
+      color:blue; 
+    }
+  }
+}
+
+.church-more { 
+  display:none; 
+  font-size:14px; 
+}
+
+.donation { 
+  margin-left:620px;
+}
+
+.comments-form { 
+  font-size:14px;
+}
+
+.no-background { 
+  background-color:transparent;
+}
+
+#section-churches {
+  caption {
+    background: url(/stylesheets/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png) white;
+    color: @dark_color;
+    font-weight: bold;
+    border-left: solid 1px #cbc7bd;
+    border-right: solid 1px #cbc7bd;
+  }
+  tr:hover {
+    background-color:#cfdada; 
+  }
+  td {
+    font-size:12px;
+  }
+}
+
+.reservation-row.first { 
+  border-top: solid 1px #ddd;
+}
+
+.reservation-row { 
+  clear:both; 
+  padding:6px; 
+  height:15px;
+  font-size:14px;
+  border-bottom: solid 1px #ddd;
+  div { 
+    float:left;
+  }
+  .more-info {
+    width:85px;
+    background-color:@dark_color;
+    color:@light_color;
+    cursor:pointer;
+    text-align:center;
+    font-weight:bold;
+    margin-top:1px;
+    margin-right:6px;
+    font-size:11px;
+  }
+  .name { 
+    width:150px;
+    vertical-align:top;
+  }
+  .labor { 
+    width:350px;
+  }
+  .dates { 
+    width:130px;
+  }
+}
+
+.reservation-one { 
+  clear:both; 
+  padding:6px 0px;
+  .name { 
+    font-size:20px; 
+    font-weight:bold;
+  }
+  .labor { 
+    font-size:14px; 
+    font-style:italic;
+  }
+}
+
+.reservation-schedule { 
+  clear:both; 
+  display:none; 
+  .schedule { 
+    width:auto; 
+    border-top:2px solid #233c6f; 
+    margin:5px 5px 0px; 
+    th { 
+      background-color:@dark_color; 
+      color:white; 
+      font-size:12px; 
+      padding:2px;
+    }
+    td { 
+      background-color:white; 
+      color:#223c6f; 
+      font-size:11px;
+      padding:2px;
+    }
+    .day {
+      width:40px; 
+    }
+    .date { 
+      width:100px; 
+    }
+    .time { 
+      width:70px; 
+    }
+    .city { 
+      width:140px; 
+    }
+    .church { 
+      width:170px; 
+    }
+    .pastor { 
+      width:160px;
+    }
+  }
+}
+
+.reservation-schedule-one { 
+  clear:both; 
+  .schedule { 
+    width:95%; 
+    th { 
+      background-color:@dark_color; 
+      color:white; 
+      font-size:14px;
+      padding:4px;
+    }
+    td{ 
+      background-color:white;
+      color:#000000; 
+      font-size:14px; 
+      padding:4px 2px;
+      border-bottom:silver 1px solid; 
+      padding:4px;
+      .missionary-info { 
+        background-color:transparent; 
+        font-size:16px; 
+        padding-bottom:8px; 
+      }
+    }
+    .day { 
+      width:40px;
+    }
+    .date { 
+      width:100px;
+    }
+    .time { 
+      width:70px;
+    }
+    .city { 
+      width:140px;
+    }
+    .church {   
+      width:170px;
+    }
+    .pastor { 
+      width:160px;
+    }
+  }
+}
+
+.reservation-update { 
+  line-height:1.8; 
+  label {
+    font-weight:bold; 
+    float:left; 
+    clear:left; 
+    width:110px; 
+    padding-right:6px; 
+    text-align:right; 
+  }
+  div {
+    input { 
+      width:318px; 
+    }
+    input.short { 
+      width:110px;
+    }
+    textarea { 
+      width:318px; 
+      height:100px; 
+      margin-top:5px; 
+    }
+  }
+}
+br.clear {
+  clear: both;
+}
